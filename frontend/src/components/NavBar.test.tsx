@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, afterEach } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { MemoryRouter } from "react-router-dom";
 import { NavBar } from "./NavBar";
@@ -73,5 +73,18 @@ describe("NavBar", () => {
     expect(
       screen.getByRole("link", { name: /Zalogowany jako kuba/i }),
     ).toBeInTheDocument();
+  });
+
+  it("menu mobilne wysuwa się z prawej i zamyka się przyciskiem", () => {
+    renderWith(null);
+
+    const openBtn = screen.getByRole("button", { name: /^otwórz menu$/i });
+    fireEvent.click(openBtn);
+
+    const dialog = screen.getByRole("dialog", { name: /menu nawigacji/i });
+    expect(dialog.className).toContain("translate-x-0");
+
+    fireEvent.click(screen.getAllByRole("button", { name: /^zamknij menu$/i })[0]!);
+    expect(openBtn).toHaveAttribute("aria-expanded", "false");
   });
 });
