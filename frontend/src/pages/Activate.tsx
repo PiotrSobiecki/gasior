@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useQueryClient } from "@tanstack/react-query";
-import { ApiValidationError, activate, type User } from "../lib/api";
+import { activate, formatApiError, type User } from "../lib/api";
 import { CURRENT_USER_QUERY_KEY } from "../hooks/useCurrentUser";
 import {
   AuthShell,
@@ -67,11 +67,12 @@ export function Activate() {
       qc.setQueryData<User | null>(CURRENT_USER_QUERY_KEY, user);
       navigate("/moje-nastawy", { replace: true });
     } catch (err) {
-      const message =
-        err instanceof ApiValidationError
-          ? err.message
-          : "Nie udało się aktywować konta";
-      setError(message);
+      setError(
+        formatApiError(
+          err,
+          "Nie udało się aktywować konta. Sprawdź link z maila (ważny 24 h) lub zarejestruj się ponownie.",
+        ),
+      );
     } finally {
       setSubmitting(false);
     }

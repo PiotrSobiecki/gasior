@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { ApiValidationError, confirmPasswordReset } from "../lib/api";
+import { confirmPasswordReset, formatApiError } from "../lib/api";
 import {
   AuthShell,
   errorBoxClass,
@@ -65,11 +65,7 @@ export function PasswordResetConfirm() {
       setDone(true);
       setTimeout(() => navigate("/logowanie", { replace: true }), 1500);
     } catch (err) {
-      const message =
-        err instanceof ApiValidationError
-          ? err.message
-          : "Nie udało się zresetować hasła";
-      setError(message);
+      setError(formatApiError(err, "Nie udało się zresetować hasła"));
     } finally {
       setSubmitting(false);
     }

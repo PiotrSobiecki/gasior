@@ -21,3 +21,5 @@ seed/recipes/
 # logi i system
 *.log
 .DS_Store
+
+presentation/

@@ -44,5 +44,7 @@ Definicje: `.claude/agents/`. Skille pomocnicze: `.claude/skills/`.
 - Backend (jednorazowe ustawienie sekretu, jeśli trzeba): `cd backend && node --env-file=.prod.vars node_modules/wrangler/bin/wrangler.js secret put DATABASE_URL`
 - Backend (aktualizacja sekretów z `.prod.vars`, PowerShell):
   `cd backend; $keys=@('DATABASE_URL','FRONTEND_ORIGIN','MAIL_FROM','RESEND_API_KEY','SESSION_COOKIE_SECURE','SESSION_TTL_DAYS','PHOTO_BASE_URL'); foreach($k in $keys){ $v = node --env-file=.prod.vars -e "process.stdout.write(process.env['$k']||'')"; if($v){ $v | node --env-file=.prod.vars node_modules/wrangler/bin/wrangler.js secret put $k } }`
-- Frontend: build (`npm run build`) → Cloudflare Pages (ustaw `VITE_API_URL`
-  na URL wdrożonego Workera).
+- Frontend: `cd frontend && $env:VITE_API_URL="https://gasior.online"; npm run build`
+  → `wrangler pages deploy dist --project-name gasior`. API idzie przez ten sam
+  origin (`functions/api/[[path]].ts` proxy → Worker), żeby uniknąć CORS.
+- DNS `www`: CNAME na `gasior.pages.dev` (nie na `gasior.online` — inaczej 522).

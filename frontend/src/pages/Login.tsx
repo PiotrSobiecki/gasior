@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useQueryClient } from "@tanstack/react-query";
-import { ApiValidationError, login, type User } from "../lib/api";
+import { formatApiError, login, type User } from "../lib/api";
 import { CURRENT_USER_QUERY_KEY } from "../hooks/useCurrentUser";
 import {
   AuthShell,
@@ -28,11 +28,7 @@ export function Login() {
       qc.setQueryData<User | null>(CURRENT_USER_QUERY_KEY, user);
       navigate("/moje-nastawy", { replace: true });
     } catch (err) {
-      const message =
-        err instanceof ApiValidationError
-          ? err.message
-          : "Nie udało się zalogować";
-      setError(message);
+      setError(formatApiError(err, "Nie udało się zalogować"));
     } finally {
       setSubmitting(false);
     }

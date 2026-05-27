@@ -1,10 +1,10 @@
 import { useState, type FormEvent } from "react";
 import { Link } from "react-router-dom";
-import { ApiValidationError, register } from "../lib/api";
+import { formatApiError, register } from "../lib/api";
 import {
   AuthShell,
+  AuthSuccessPanel,
   errorBoxClass,
-  infoBoxClass,
   inputClass,
   labelClass,
   primaryButtonClass,
@@ -28,35 +28,35 @@ export function Register() {
       });
       setDone(true);
     } catch (err) {
-      const message =
-        err instanceof ApiValidationError
-          ? err.message
-          : "Nie udało się zarejestrować";
-      setError(message);
+      setError(formatApiError(err, "Nie udało się zarejestrować"));
     } finally {
       setSubmitting(false);
     }
   }
 
   if (done) {
+    const sentTo = email.trim();
     return (
       <AuthShell
+        variant="success"
         badge="📩 Sprawdź skrzynkę"
         title="Wysłaliśmy link aktywacyjny"
         subtitle="Otwórz wiadomość i kliknij link, by ustawić hasło."
         footer={
-          <p>
-            <Link to="/logowanie" className="text-[var(--color-bordo)] hover:underline">
-              Wróć do logowania
-            </Link>
-          </p>
+          <Link to="/logowanie" className={primaryButtonClass}>
+            Wróć do logowania
+          </Link>
         }
       >
-        <p className={infoBoxClass}>
-          Na adres <strong>{email.trim()}</strong> wysłaliśmy link aktywacyjny.
-          Wygasa po 24 godzinach. Jeśli go nie widzisz — zerknij do folderu
-          „Spam".
-        </p>
+        <AuthSuccessPanel
+          icon="📩"
+          email={sentTo}
+          tips={[
+            "W skrzynce szukaj wiadomości od Gąsior — w temacie będzie link aktywacyjny.",
+            "Link jest ważny 24 godziny. Po kliknięciu ustawisz hasło i od razu się zalogujesz.",
+            "Nie widzisz maila? Sprawdź folder Spam lub Oferty — czasem ląduje tam przy pierwszej wiadomości.",
+          ]}
+        />
       </AuthShell>
     );
   }

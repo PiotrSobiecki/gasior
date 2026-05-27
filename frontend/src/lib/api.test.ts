@@ -4,6 +4,7 @@ import {
   createBatch,
   fetchBatch,
   fetchCurrentUser,
+  getApiBaseUrl,
   listMyBatches,
   login,
   logout,
@@ -14,9 +15,31 @@ import {
   updateBatch,
   BatchAuthError,
   ApiValidationError,
+  ApiNetworkError,
 } from "./api";
 
 const BASE = "http://api.example.com";
+
+describe("getApiBaseUrl", () => {
+  const originalLocation = window.location;
+
+  afterEach(() => {
+    Object.defineProperty(window, "location", {
+      value: originalLocation,
+      writable: true,
+      configurable: true,
+    });
+  });
+
+  it("na gasior.online używa origin strony (proxy), nie api.gasior.online", () => {
+    Object.defineProperty(window, "location", {
+      value: new URL("https://gasior.online/aktywacja?token=x"),
+      writable: true,
+      configurable: true,
+    });
+    expect(getApiBaseUrl()).toBe("https://gasior.online");
+  });
+});
 
 describe("buildRecipesUrl", () => {
   it("returns the base /recipes path when no query is provided", () => {
@@ -141,6 +164,16 @@ describe("auth API client", () => {
     await expect(register({ email: "x" })).rejects.toBeInstanceOf(
       ApiValidationError,
     );
+  });
+
+  it("activate rzuca ApiNetworkError gdy fetch pada (CORS / sieć)", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockRejectedValueOnce(new TypeError("Failed to fetch")),
+    );
+    await expect(
+      activate({ token: "abc", password: "haslohaslo12" }),
+    ).rejects.toBeInstanceOf(ApiNetworkError);
   });
 
   it("activate zwraca user przy 200", async () => {

@@ -1,10 +1,10 @@
 import { useState, type FormEvent } from "react";
 import { Link } from "react-router-dom";
-import { ApiValidationError, requestPasswordReset } from "../lib/api";
+import { formatApiError, requestPasswordReset } from "../lib/api";
 import {
   AuthShell,
+  AuthSuccessPanel,
   errorBoxClass,
-  infoBoxClass,
   inputClass,
   labelClass,
   primaryButtonClass,
@@ -24,11 +24,7 @@ export function PasswordResetRequest() {
       await requestPasswordReset({ email: email.trim() });
       setDone(true);
     } catch (err) {
-      const message =
-        err instanceof ApiValidationError
-          ? err.message
-          : "Nie udało się zainicjować resetu hasła";
-      setError(message);
+      setError(formatApiError(err, "Nie udało się zainicjować resetu hasła"));
     } finally {
       setSubmitting(false);
     }
@@ -37,21 +33,25 @@ export function PasswordResetRequest() {
   if (done) {
     return (
       <AuthShell
+        variant="success"
         badge="📩 Sprawdź skrzynkę"
         title="Jeśli konto istnieje — wysłaliśmy link"
+        subtitle="Gdy ten e-mail jest u nas w bazie, dostaniesz wiadomość z resetem hasła."
         footer={
-          <p>
-            <Link to="/logowanie" className="text-[var(--color-bordo)] hover:underline">
-              Wróć do logowania
-            </Link>
-          </p>
+          <Link to="/logowanie" className={primaryButtonClass}>
+            Wróć do logowania
+          </Link>
         }
       >
-        <p className={infoBoxClass}>
-          Jeśli adres <strong>{email.trim()}</strong> jest u nas zarejestrowany,
-          dostaniesz wiadomość z linkiem do ustawienia nowego hasła. Link wygasa
-          po 1 godzinie.
-        </p>
+        <AuthSuccessPanel
+          icon="🔓"
+          email={email.trim()}
+          tips={[
+            "Jeśli konto z tym adresem istnieje, wysłaliśmy link do ustawienia nowego hasła.",
+            "Link resetu jest ważny 1 godzinę — użyj go od razu po otrzymaniu maila.",
+            "Brak wiadomości? Sprawdź Spam lub spróbuj ponownie za kilka minut.",
+          ]}
+        />
       </AuthShell>
     );
   }

@@ -85,6 +85,22 @@ function frontendOrigin(env: Bindings): string {
   return env.FRONTEND_ORIGIN ?? "http://localhost:5173";
 }
 
+function allowedOrigins(env: Bindings): string[] {
+  const base = frontendOrigin(env).replace(/\/$/, "");
+  const origins = new Set<string>([base, "http://localhost:5173"]);
+  try {
+    const url = new URL(base);
+    origins.add(url.origin);
+    if (url.hostname === "gasior.online" || url.hostname === "www.gasior.online") {
+      origins.add("https://gasior.online");
+      origins.add("https://www.gasior.online");
+    }
+  } catch {
+    // Zostawiamy tylko bazowy origin + localhost.
+  }
+  return [...origins];
+}
+
 function sessionTtlDays(env: Bindings): number {
   const n = Number(env.SESSION_TTL_DAYS);
   return Number.isFinite(n) && n > 0 ? n : 30;
@@ -98,15 +114,19 @@ function sessionCookieSecure(env: Bindings): boolean {
 const app = new Hono<{ Bindings: Bindings; Variables: AuthVariables }>();
 
 // CORS z credentials — przy cookie sesyjnym nie możemy `*`. Origin musi
-// być konkretny (FRONTEND_ORIGIN); brak ustawienia → fallback do dev URL.
-app.use("/api/*", (c, next) =>
-  cors({
-    origin: frontendOrigin(c.env),
+// być konkretny (FRONTEND_ORIGIN + www/apex).
+app.use("*", (c, next) => {
+  const allowed = allowedOrigins(c.env);
+  return cors({
+    origin: (origin) => {
+      if (!origin) return allowed[0];
+      return allowed.includes(origin) ? origin : allowed[0];
+    },
     credentials: true,
     allowHeaders: ["Content-Type"],
     allowMethods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
-  })(c, next),
-);
+  })(c, next);
+});
 
 // Middleware kontekstu auth — wczytuje sesję z cookie i wstawia `currentUser`
 // do `c`. Stosujemy globalnie dla /api/*, żeby każdy route mógł sprawdzić
