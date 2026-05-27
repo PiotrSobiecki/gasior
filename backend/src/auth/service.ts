@@ -99,27 +99,90 @@ export function createAuthService(deps: AuthServiceDeps): AuthService {
     return raw;
   }
 
+  function buildTransactionalHtml(opts: {
+    title: string;
+    intro: string;
+    ctaLabel: string;
+    ctaLink: string;
+    ttlNote: string;
+  }): string {
+    const safeLink = opts.ctaLink.replace(/"/g, "&quot;");
+    return `
+<!doctype html>
+<html lang="pl">
+  <body style="margin:0;padding:0;background:#faf6ef;font-family:Arial,Helvetica,sans-serif;color:#2a211c;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#faf6ef;padding:24px 12px;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:560px;background:#ffffff;border:1px solid #e7dfd2;border-radius:16px;overflow:hidden;">
+            <tr>
+              <td style="background:#6b1f2a;color:#faf6ef;padding:18px 22px;font-size:20px;font-weight:700;">
+                Gąsior
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:24px 22px;">
+                <h1 style="margin:0 0 12px;font-size:24px;line-height:1.3;color:#6b1f2a;">${opts.title}</h1>
+                <p style="margin:0 0 18px;font-size:15px;line-height:1.6;color:#3f332b;">${opts.intro}</p>
+                <p style="margin:0 0 20px;">
+                  <a href="${safeLink}" style="display:inline-block;background:#d98324;color:#4a1a24;text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:700;font-size:14px;">
+                    ${opts.ctaLabel}
+                  </a>
+                </p>
+                <p style="margin:0 0 10px;font-size:13px;line-height:1.6;color:#6a5a4f;">${opts.ttlNote}</p>
+                <p style="margin:0;font-size:12px;line-height:1.6;color:#8a7a6c;">
+                  Jeśli przycisk nie działa, skopiuj ten link:<br />
+                  <a href="${safeLink}" style="color:#6b1f2a;word-break:break-all;">${opts.ctaLink}</a>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>`.trim();
+  }
+
   function buildActivationEmail(to: string, link: string) {
     return {
       to,
-      subject: "Aktywuj konto w Bimbrowniku",
+      subject: "Aktywuj konto w Gąsiorze",
       text:
         `Cześć!\n\n` +
-        `Aby zakończyć zakładanie konta w Bimbrowniku, ustaw hasło pod tym linkiem:\n` +
+        `Aby zakończyć zakładanie konta w Gąsiorze, ustaw hasło pod tym linkiem:\n` +
         `${link}\n\n` +
         `Link jest ważny 24 godziny. Jeśli to nie Ty się rejestrowałeś — zignoruj tę wiadomość.\n`,
+      html: buildTransactionalHtml({
+        title: "Aktywuj konto w Gąsiorze",
+        intro:
+          "Dziękujemy za rejestrację. Kliknij przycisk poniżej, aby ustawić hasło i aktywować konto.",
+        ctaLabel: "Aktywuj konto",
+        ctaLink: link,
+        ttlNote:
+          "Link aktywacyjny jest ważny przez 24 godziny. Jeśli to nie Ty się rejestrowałeś, zignoruj tę wiadomość.",
+      }),
     };
   }
 
   function buildResetEmail(to: string, link: string) {
     return {
       to,
-      subject: "Reset hasła w Bimbrowniku",
+      subject: "Reset hasła w Gąsiorze",
       text:
         `Cześć!\n\n` +
         `Kliknij w link, żeby ustawić nowe hasło:\n` +
         `${link}\n\n` +
         `Link jest ważny 1 godzinę. Jeśli to nie Ty prosiłeś o reset — zignoruj tę wiadomość.\n`,
+      html: buildTransactionalHtml({
+        title: "Reset hasła w Gąsiorze",
+        intro:
+          "Otrzymaliśmy prośbę o zmianę hasła. Kliknij przycisk poniżej, aby ustawić nowe hasło.",
+        ctaLabel: "Ustaw nowe hasło",
+        ctaLink: link,
+        ttlNote:
+          "Link do resetu jest ważny przez 1 godzinę. Jeśli to nie Ty prosiłeś o reset, zignoruj tę wiadomość.",
+      }),
     };
   }
 

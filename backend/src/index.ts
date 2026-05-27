@@ -116,7 +116,7 @@ app.use("/api/*", (c, next) => {
     repo: createNeonAuthRepo(c.env.DATABASE_URL),
     mail: getEmail(c.env),
     frontendOrigin: frontendOrigin(c.env),
-    mailFrom: c.env.MAIL_FROM ?? "Bimbrownik <noreply@example>",
+    mailFrom: c.env.MAIL_FROM ?? "Gąsior <noreply@gasior.online>",
     sessionTtlDays: sessionTtlDays(c.env),
   });
   return createAuthContextMiddleware(() => service)(c, next);
@@ -133,7 +133,7 @@ app.route(
         repo: createNeonAuthRepo(c.env.DATABASE_URL),
         mail: getEmail(c.env),
         frontendOrigin: frontendOrigin(c.env),
-        mailFrom: c.env.MAIL_FROM ?? "Bimbrownik <noreply@example>",
+        mailFrom: c.env.MAIL_FROM ?? "Gąsior <noreply@gasior.online>",
         sessionTtlDays: sessionTtlDays(c.env),
       }),
     (c) => ({

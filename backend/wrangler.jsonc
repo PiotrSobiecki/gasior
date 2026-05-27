@@ -20,6 +20,12 @@
       "bucket_name": "gasior-photos",
       "preview_bucket_name": "gasior-photos-dev"
     }
+  ],
+  "routes": [
+    {
+      "pattern": "api.gasior.online",
+      "custom_domain": true
+    }
   ]
   // DATABASE_URL ustaw jako sekret:
   //   lokalnie -> backend/.dev.vars
