@@ -1,0 +1,26 @@
+{
+  "name": "Wino z czarnej porzeczki",
+  "fruit": "czarna porzeczka",
+  "category": "wino",
+  "fruitKg": 5.0,
+  "sugarKg": 2.8,
+  "waterL": 5.0,
+  "yeastType": "drożdże winiarskie do win czerwonych / kwaśnych (np. Fermivin VR5, Burgund, Bordeaux) + pożywka",
+  "targetAbv": 12,
+  "fermentationDays": 40,
+  "steps": [
+    "Wyparz gąsior 10 l, rurkę fermentacyjną, łyżkę i wszystkie naczynia.",
+    "Czarne porzeczki przebierz, odszypułkuj, umyj i osusz; delikatnie zmiażdż tłuczkiem, by uwolnić sok.",
+    "Przełóż miazgę do pojemnika, zalej 1 l wody o temp. ok. 40°C i odstaw na 2–3 godziny do maceracji, by obniżyć ostrość kwasowości.",
+    "Przygotuj syrop z 1,5 kg cukru i 3,5 l gorącej wody, ostudź i wlej do moszczu; dodaj pożywkę dla drożdży.",
+    "Rozrusz drożdże winiarskie zgodnie z instrukcją i dodaj do nastawu; załóż rurkę fermentacyjną.",
+    "Fermentuj burzliwie 7–10 dni w 18–22°C; po 5–7 dniach dodaj drugą porcję cukru (1,3 kg) rozpuszczonego w 0,5 l wody.",
+    "Po ok. 4 tygodniach od startu zlej znad osadu na fermentację cichą; uzupełnij gąsior do pełna.",
+    "Po wyklarowaniu (kolejne 4–8 tygodni) ponownie zlej znad osadu, przefiltruj i rozlej do butelek; leżakuj min. 3 miesiące."
+  ],
+  "sourceUrls": [
+    "https://piekarniapiwa.pl/wino-z-czarnej-porzeczki-prosty-przepis-i-sekrety-udanej-fermentacji",
+    "https://browin.pl/przepisnik/przepis/wino-z-czarnej-porzeczki",
+    "https://winiarze.pl/jak-zrobic-wino-z-czarnej-porzeczki-na-15l-praktyczny-przewodnik-krok-po-kroku/"
+  ]
+}

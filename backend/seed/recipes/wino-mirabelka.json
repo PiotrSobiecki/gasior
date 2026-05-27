@@ -1,0 +1,25 @@
+{
+  "name": "Wino z mirabelek",
+  "fruit": "mirabelka",
+  "category": "wino",
+  "fruitKg": 8.0,
+  "sugarKg": 3.0,
+  "waterL": 4.5,
+  "yeastType": "drożdże winiarskie do win owocowych / białych (np. Tokaj, Malaga, Bordeaux) + pożywka + pektoenzym",
+  "targetAbv": 13,
+  "fermentationDays": 45,
+  "steps": [
+    "Wyparz gąsior 10 l, rurkę fermentacyjną i wszystkie naczynia.",
+    "Wybierz dojrzałe, jędrne mirabelki; umyj je dokładnie i usuń pestki (pestki śliw zawierają amigdalinę i nie powinny trafić do wodnego nastawu).",
+    "Rozgnieć owoce ręcznie lub w pulpie i zalej gorącą wodą (ok. 90°C) tak, by przykryła całą masę; pozwoli to wstępnie sparzyć skórki i zabić dzikie drożdże.",
+    "Po wystudzeniu do ~25°C dodaj 1,5 kg cukru rozpuszczonego w 1 l ciepłej wody, pektoenzym, pożywkę oraz 10 g kwasku cytrynowego.",
+    "Wlej rozruszane drożdże winiarskie, załóż rurkę fermentacyjną i prowadź fermentację burzliwą w 18–22°C przez 7–10 dni.",
+    "Po 5–7 dniach dodaj drugą porcję cukru (1,5 kg) rozpuszczonego w 1 l wody, w postaci syropu.",
+    "Po ok. 5 tygodniach zbierz skórki z powierzchni, zlej znad osadu na cichą fermentację.",
+    "Po wyklarowaniu (kolejne 2 miesiące) ponownie zlej znad osadu, rozlej do butelek i leżakuj minimum 6 miesięcy — pełnię smaku osiąga po roku."
+  ],
+  "sourceUrls": [
+    "https://winopodlupa.pl/wino-z-mirabelek",
+    "https://www.ofeminin.pl/kuchnia/przepisy/wegierki-czy-mirabelki-domowe-wino-ze-sliwek-na-2-sposoby/pwnnp0l"
+  ]
+}

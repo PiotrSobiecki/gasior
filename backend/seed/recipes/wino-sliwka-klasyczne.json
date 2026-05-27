@@ -1,0 +1,27 @@
+{
+  "name": "Wino śliwkowe domowe (klasyczne, ~18 kg)",
+  "fruit": "śliwka",
+  "category": "wino",
+  "fruitKg": 18.0,
+  "sugarKg": 6.0,
+  "waterL": 14.0,
+  "yeastType": "drożdże winiarskie do win owocowych (np. ANKA Aromatyczne, Tokaj, Bordeaux) + pożywka + pektoenzym",
+  "targetAbv": 12,
+  "fermentationDays": 40,
+  "steps": [
+    "Umyj śliwki (najlepiej węgierki lub mirabelki), usuń szypułki, robaczywe i pleśniejące owoce.",
+    "DRYLOWANIE — przekrój każdą śliwkę i wyjmij wszystkie pestki. Pestki śliwek zawierają amigdalinę, która w środowisku wodnym może uwalniać cyjanowodór; w nastawach owocowych przeznaczonych do picia bez destylacji usuwamy je w całości.",
+    "Rozdrobnij owoce ręcznie lub nożem na mniejsze kawałki i przełóż do pojemnika fermentacyjnego.",
+    "Zagotuj ok. 5 l wody i rozpuść w niej 3 kg cukru — gorący syrop cukrowy wlej na owoce; pozwoli to wstępnie sparzyć skórki.",
+    "Po 1–2 godzinach dolej 5 l zimnej, przegotowanej wody i dodaj pektoenzym (wg dawki na opakowaniu).",
+    "Po ok. 12 godzinach dodaj rozruszane drożdże winiarskie i pożywkę, zamknij pojemnik rurką fermentacyjną.",
+    "Po ok. 7 dniach, gdy burzliwa fermentacja zwolni, przygotuj drugą porcję syropu (4 l wody + 3 kg cukru), ostudź i dodaj do nastawu.",
+    "Fermentuj w 18–22°C przez kolejne 3–4 tygodnie, aż rurka praktycznie przestanie pracować i nastaw zacznie się klarować.",
+    "Zlej znad osadu (obciąg), przelej do gąsiora i odstaw do leżakowania na minimum 3–6 miesięcy."
+  ],
+  "sourceUrls": [
+    "https://malinowynos.pl/Przepis-na-wino-sliwkowe",
+    "https://drfood.pl/przepis-na-wino-tradycyjne-metody-domowej-produkcji/",
+    "https://alkohole-domowe.com/forum/przepis-na-wino-ze-sliwek-t5960.html"
+  ]
+}

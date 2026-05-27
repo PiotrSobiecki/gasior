@@ -1,0 +1,2 @@
+ALTER TABLE "batches" ADD COLUMN "instruction_steps" jsonb DEFAULT '[]'::jsonb NOT NULL;--> statement-breakpoint
+ALTER TABLE "batches" ADD COLUMN "checked_step_indices" jsonb DEFAULT '[]'::jsonb NOT NULL;

@@ -1,0 +1,21 @@
+# Skopiuj do .dev.vars i uzupełnij. .dev.vars jest w .gitignore — NIE commituj
+# prawdziwych wartości. Konwencja: dev pracuje na bazie `gasior-dev`, prod na
+# `gasior-prod` (osobny `.prod.vars`).
+
+# Baza Neon (Postgres serverless).
+DATABASE_URL="postgresql://user:password@ep-xxxx.eu-central-1.aws.neon.tech/gasior-dev?sslmode=require"
+
+# Origin frontendu — przy auth-cookie nie można CORS=*; musi być konkretny.
+# W dev domyślnie Vite działa na 5173.
+FRONTEND_ORIGIN="http://localhost:5173"
+
+# Resend — klucz API jest per-konto. From musi wskazywać na zweryfikowaną
+# domenę w panelu Resenda. Gdy nie ustawisz — backend leci na in-memory
+# transporcie i wypisuje linki aktywacyjne do konsoli (kopiuj ręcznie).
+# RESEND_API_KEY="re_..."
+# MAIL_FROM="Bimbrownik <noreply@twoja-zweryfikowana-domena>"
+
+# Cookie sesyjne. W dev (http://localhost) zostawiamy false; w prod (HTTPS)
+# w .prod.vars ustaw SESSION_COOKIE_SECURE="true".
+SESSION_COOKIE_SECURE="false"
+SESSION_TTL_DAYS="30"

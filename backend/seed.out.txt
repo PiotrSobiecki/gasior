@@ -1,0 +1,37 @@
+﻿
+> gasior-backend@0.1.0 db:seed
+> node --env-file=.dev.vars --import tsx scripts/seed-recipes.ts
+
+node.exe : FAIL cydr-gruszka.json ÔÇö Niepoprawna receptura w pliku
+At C:\Users\piotr\AppData\Roaming\npm\npm.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/npm/bin/npm-cli.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (FAIL cydr-grusz...ceptura w pliku:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+OK  cydr-jablkowy.json ÔÇö Dodano (pass): Cydr jab┼ékowy wytrawny (41e98a24-08b0-4b78-b9e5-ec529339ca35)
+OK  miod-malinowy.json ÔÇö Dodano (pass): Mi├│d pitny malinowy (czw├│rniak) (a4f58dd3-1094-44a1-9e1c-50f165ef444c)
+FAIL miod-sliwka-trojniak.json ÔÇö Niepoprawna receptura w pliku
+FAIL nalewka-agrest.json ÔÇö Niepoprawna receptura w pliku
+FAIL nalewka-jezyna.json ÔÇö Niepoprawna receptura w pliku
+FAIL nalewka-pigwa.json ÔÇö Niepoprawna receptura w pliku
+FAIL nalewka-porzeczka-czarna.json ÔÇö Niepoprawna receptura w pliku
+FAIL nalewka-roza.json ÔÇö Niepoprawna receptura w pliku
+FAIL nalewka-sliwka-spirytus.json ÔÇö Niepoprawna receptura w pliku
+FAIL nalewka-sliwka-wodka.json ÔÇö Niepoprawna receptura w pliku
+FAIL nalewka-truskawka.json ÔÇö Niepoprawna receptura w pliku
+OK  nalewka-wisnia.json ÔÇö Dodano (pass): Nalewka z wi┼Ťni (7ab699d2-6e31-40e9-b633-178153d26f39)
+OK  wino-agrest.json ÔÇö Dodano (warn): Wino z agrestu p├│┼és┼éodkie (cded4fa8-0c6c-4544-a029-d584c9ee5abb)
+OK  wino-aronia.json ÔÇö Dodano (pass): Wino z aronii (fc6a1c72-81d0-4816-a893-1d99ef3371bd)
+OK  wino-gruszka.json ÔÇö Dodano (warn): Wino z gruszek (gruszk├│wka) (efb8ba39-9857-417d-a57c-eb31d575abb7)
+OK  wino-jezyna.json ÔÇö Dodano (warn): Wino z je┼╝yn (2c8c7e10-fef5-4537-9edd-eb22562b4741)
+OK  wino-pigwa.json ÔÇö Dodano (warn): Wino z pigwy / pigwowca (93a3010c-317c-4c1f-8aba-44c2682301b6)
+OK  wino-porzeczka-czerwona-lekkie.json ÔÇö Dodano (warn): Wino z czerwonej porzeczki (lekkie, 12% ABV) (bb5b3b21-6813-4774-86b9-6249be4fea7e)
+OK  wino-porzeczka-czerwona-mocne.json ÔÇö Dodano (warn): Wino z czerwonej porzeczki (mocniejsze, 14% ABV) (1e9438a2-e586-4d1b-a4fa-06bf39acf6f1)
+OK  wino-sliwka-klasyczne.json ÔÇö Dodano (warn): Wino ┼Ťliwkowe domowe (klasyczne, ~18 kg) (9f492f79-5863-4096-b1f2-a8ab5180429f)
+OK  wino-sliwka-lekkie.json ÔÇö Dodano (warn): Wino ┼Ťliwkowe lekkie (na 10 l) (156d7adf-a0cc-446d-b8af-9b814d396ea7)
+OK  wino-truskawka.json ÔÇö Dodano (warn): Wino z truskawek (klasyczne, 16% ABV) (ab005c09-50e3-40b4-a305-f0737a12c981)
+OK  wino-winogrono-biale.json ÔÇö Dodano (warn): Wino z bia┼éych winogron (51348e0c-7efb-4c2f-ad9f-6fc397ab33a5)
+OK  wino-winogrono-ciemne.json ÔÇö Dodano (warn): Wino z ciemnych winogron (na dzikich dro┼╝d┼╝ach) (5aea1273-dc7d-47dc-8fa7-17e4208d0cf6)
+
+Seed zako┼äczony: 15 OK, 10 FAIL.

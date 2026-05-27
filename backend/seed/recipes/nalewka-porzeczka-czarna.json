@@ -1,0 +1,25 @@
+{
+  "name": "Nalewka z czarnej porzeczki (tradycyjna)",
+  "fruit": "czarna porzeczka",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.5,
+  "waterL": 0.0,
+  "yeastType": "brak (maceracja alkoholowa)",
+  "targetAbv": 42,
+  "fermentationDays": 120,
+  "steps": [
+    "Czarne porzeczki umyj i dokładnie oczyść z ogonków (można użyć mrożonych — rozmroź ok. 2–3 godziny w temperaturze pokojowej).",
+    "Owoce wsyp do wyparzonego słoja min. 3 l; opcjonalnie dodaj laskę wanilii, kawałek cynamonu lub 5–6 liści czarnej porzeczki.",
+    "Najpierw wlej 500 ml wódki 40–45%, dopiero potem 500 ml spirytusu 95% — taka kolejność łagodniej działa na owoce.",
+    "Słój zakręć, potrząśnij, odstaw w lekko nasłonecznione miejsce na minimum 30 dni (klasycznie 4–8 tygodni).",
+    "Po maceracji zlej czystą nalewkę do osobnego słoja; do owoców wsyp 500 g cukru i potrząsaj codziennie przez ok. tydzień, aż cukier się rozpuści.",
+    "Powstały syrop owocowy przecedź przez sitko i gazę (odciśnij owoce), połącz z odlaną wcześniej nalewką, rozlej do butelek i odstaw na 3–6 miesięcy do dojrzewania."
+  ],
+  "sourceUrls": [
+    "https://klubwino.pl/tradycyjna-nalewka-z-czarnej-porzeczki-prosty-przepis/",
+    "https://aniagotuje.pl/przepis/nalewka-z-czarnej-porzeczki",
+    "https://www.spirulina.pl/porzeczka-czarna-ribes-nigrum/nalewka-z-czarnej-porzeczki.html",
+    "https://odzywianie.wprost.pl/przepisy/11300233/lecznicza-nalewka-z-czarnej-porzeczki-sprawdzony-przepis.html"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Wino z aronii",
+  "fruit": "aronia",
+  "category": "wino",
+  "fruitKg": 2,
+  "sugarKg": 1.6,
+  "waterL": 6,
+  "yeastType": "drożdże winiarskie (Malaga / Tokaj)",
+  "targetAbv": 12,
+  "fermentationDays": 30,
+  "steps": [
+    "Umyj i rozgnieć owoce, zalej syropem z części cukru i wody.",
+    "Dodaj pożywkę dla drożdży i rozfermentowane drożdże winiarskie.",
+    "Załóż rurkę fermentacyjną; fermentuj w 18-22°C.",
+    "Po fermentacji burzliwej zlej znad osadu i dosłódź resztą cukru.",
+    "Dojrzewaj kilka miesięcy, zlewając znad osadu w razie potrzeby."
+  ],
+  "sourceUrls": ["https://example.com/wino-z-aronii"]
+}

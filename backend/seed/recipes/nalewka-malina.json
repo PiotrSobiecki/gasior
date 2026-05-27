@@ -1,0 +1,26 @@
+{
+  "name": "Nalewka malinowa (klasyczna, na spirytusie)",
+  "fruit": "malina",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.5,
+  "waterL": 0.0,
+  "yeastType": "brak (maceracja w alkoholu)",
+  "targetAbv": 40,
+  "fermentationDays": 42,
+  "steps": [
+    "Wyparz duży słój (min. 3 l), pokrywkę i wszystkie naczynia, by uniknąć zakażenia.",
+    "Przebierz dojrzałe maliny, opłucz delikatnie i osusz na sicie; uszkodzone owoce odrzuć.",
+    "Wsyp maliny do słoja i zalej 1 l alkoholu o mocy ok. 70% (np. 0,5 l spirytusu 95% + 0,5 l wódki 40%) tak, by były całkowicie przykryte.",
+    "Zakręć słój i odstaw w ciemne, chłodne miejsce na 4–6 tygodni; co 2–3 dni delikatnie potrząśnij.",
+    "Po maceracji zlej nalew alkoholowy do osobnego naczynia; owoce w słoju zasyp 0,5 kg cukru.",
+    "Trzymaj słój z cukrem 1–2 tygodnie, codziennie potrząsając, aż powstanie syrop.",
+    "Połącz nalew alkoholowy z syropem, przefiltruj przez gazę lub bibułę i rozlej do butelek.",
+    "Leżakuj minimum 4–6 miesięcy w ciemnym, chłodnym miejscu — z czasem nabiera głębi."
+  ],
+  "sourceUrls": [
+    "https://piekarniapiwa.pl/jak-zrobic-nalewke-z-malin-przepis-na-idealna-malinowke",
+    "https://skladpodkarpacki.pl/przepis-na-nalewke-malinowa/",
+    "https://alkohole-domowe.com/forum/nalewka-malinowa-t110.html"
+  ]
+}

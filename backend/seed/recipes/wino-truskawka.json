@@ -1,0 +1,25 @@
+{
+  "name": "Wino z truskawek (klasyczne, 16% ABV)",
+  "fruit": "truskawka",
+  "category": "wino",
+  "fruitKg": 7.5,
+  "sugarKg": 2.4,
+  "waterL": 3.2,
+  "yeastType": "drożdże winiarskie do win owocowych / czerwonych (Tokaj, Madera, Chambertin, Assmannshausen) + pożywka ok. 4 g",
+  "targetAbv": 16,
+  "fermentationDays": 35,
+  "steps": [
+    "Truskawki umyj, odszypułkuj i rozgnieć tłuczkiem do ziemniaków — nie miksuj, żeby nie uszkodzić pestek.",
+    "Przygotuj syrop z pierwszej porcji cukru (1.2 kg) rozpuszczonej w 1.6 l gorącej wody z 15 g kwasku cytrynowego; ostudź.",
+    "Rozruch drożdży — przygotuj matkę drożdżową zgodnie z opakowaniem (woda ok. 25–30 °C + szczypta cukru), odstaw na 20–30 min.",
+    "Połącz pulpę z syropem w gąsiorze, dodaj pożywkę i matkę drożdżową, załóż rurkę fermentacyjną.",
+    "Po 5–7 dniach (gdy BLG wyraźnie spadnie) dodaj drugą porcję syropu (1.2 kg cukru + 1.6 l wody).",
+    "Po zakończeniu fermentacji burzliwej (~3–4 tygodnie) zlej znad osadu na fermentację cichą; klaruj, butelkuj."
+  ],
+  "sourceUrls": [
+    "https://artkanonicza.pl/domowe-wino-truskawkowe-prosty-przepis-na-radosc/",
+    "https://wypiekibeaty.com.pl/wino-truskawkowe/",
+    "https://destylacja.com/przepis-na-wino-z-truskawek",
+    "https://alkohole-domowe.com/forum/pierwsze-wino-z-truskawek-t22345.html"
+  ]
+}

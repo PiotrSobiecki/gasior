@@ -1,0 +1,26 @@
+{
+  "name": "Nalewka jabłkowa korzenna (jabłkówka)",
+  "fruit": "jabłko",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.4,
+  "waterL": 0.4,
+  "yeastType": "brak (maceracja w alkoholu)",
+  "targetAbv": 38,
+  "fermentationDays": 42,
+  "steps": [
+    "Wyparz duży słój (min. 3 l) i butelki; przygotuj przyprawy: 1 laskę cynamonu, 5–8 goździków i opcjonalnie laskę wanilii.",
+    "Umyj 1 kg jabłek (najlepiej aromatycznych, np. szara reneta lub Jonaprince), usuń gniazda nasienne i pokrój w grubsze kawałki; skórki zostaw.",
+    "Z 0,4 l wody i 0,4 kg cukru ugotuj syrop z dodatkiem cynamonu, goździków i wanilii — gotuj na małym ogniu 7–10 minut, odstaw do wystudzenia.",
+    "Wsyp jabłka do słoja, zalej letnim syropem z przyprawami i 0,7 l spirytusu 95%; uzupełnij ewentualnie wódką 40%, by uzyskać ~50–55%.",
+    "Słój szczelnie zakręć i odstaw w ciemne miejsce na 4–6 tygodni; przez pierwsze dni codziennie potrząsaj, później co kilka dni.",
+    "Po maceracji odcedź nalewkę przez gazę, dokładnie odciśnij jabłka i kawałki przypraw.",
+    "Przefiltruj przez bibułę, dodaj sok z 1/2 cytryny dla podkręcenia smaku i rozlej do butelek.",
+    "Leżakuj minimum 2–3 miesiące w ciemnym, chłodnym miejscu — najlepiej smakuje po pół roku."
+  ],
+  "sourceUrls": [
+    "https://www.mojegotowanie.pl/przepis/nalewka-jabluszkowa",
+    "https://smacznapyza.blogspot.com/2017/08/nalewka-jablkowa-jablkowka-korzenna.html",
+    "https://comfortart.pl/pl/n/32"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Miód pitny śliwkowy — trójniak melomel",
+  "fruit": "śliwka",
+  "category": "miod",
+  "fruitKg": 3.0,
+  "sugarKg": 0.0,
+  "waterL": 6.0,
+  "yeastType": "drożdże winiarskie tolerujące wysoki cukier (np. Saccharomyces bayanus, Lalvin 71B-1122 lub D47) + pożywka + regulator kwasowości (kwasek cytrynowy)",
+  "targetAbv": 13,
+  "fermentationDays": 45,
+  "steps": [
+    "Umyj świeże śliwki — najlepiej węgierki (soczyste, kwaśno-słodkie, dobrze komponują się z miodem).",
+    "DRYLOWANIE — przekrój wszystkie śliwki i usuń pestki. Pestki zawierają amigdalinę i nie są potrzebne w melomelu; usuwamy je w całości.",
+    "Z wydrylowanych śliwek wyciśnij sok (sokowirówka lub prasa) — z ~3 kg śliwek otrzymasz ok. 2 l soku. Sok krótko pasteryzuj w 60–70°C (nie gotuj), aby zachować aromaty.",
+    "W garnku podgrzej 4 l wody do ok. 60°C, dodaj 3,3 l (≈ 4,5 kg) miodu (najlepiej wielokwiatowy lub lipowy) i mieszaj aż do całkowitego rozpuszczenia.",
+    "Opcjonalnie sycenie — gotuj brzeczkę miodową 15–20 minut, zbierając pianę. Wersja niesycona zachowuje więcej aromatów miodu.",
+    "Ostudź brzeczkę do ok. 25°C i dodaj ok. 2 l ostudzonego soku śliwkowego (zastępujemy nim ~30% objętości wody — to klasyczna proporcja trójniaka melomel śliwkowego).",
+    "Przelej do gąsiora, dodaj rozruszane drożdże winiarskie + pożywkę + 10–20 g kwasku cytrynowego do smaku.",
+    "Załóż rurkę fermentacyjną; prowadź fermentację burzliwą 4–6 tygodni w temperaturze 18–22°C.",
+    "Po ucichnięciu fermentacji burzliwej zlej znad osadu (pierwszy obciąg). Leżakuj minimum 6 miesięcy — klasyczny trójniak nabiera pełni smaku po 1,5–4 latach."
+  ],
+  "sourceUrls": [
+    "https://pasiekisadowskich.pl/miod-pitny-sliwkowy-trojniak",
+    "https://browin.pl/przepisnik/przepis/domowy-miod-pitny-trojniak",
+    "https://go4taste.pl/blog/jak-zrobic-miod-pitny-przepis/",
+    "https://www.meadmakr.com/plum-crazy-a-melomel-recipe-from-dragons-lair-meads/"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Nalewka z pigwy (pigwówka)",
+  "fruit": "pigwa",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.6,
+  "waterL": 0.25,
+  "yeastType": "brak (maceracja alkoholowa)",
+  "targetAbv": 38,
+  "fermentationDays": 90,
+  "steps": [
+    "Wybierz dojrzałe, żółte, twarde owoce pigwy lub pigwowca; pigwowiec (Chaenomeles) jest bardziej kwaśny i wymaga górnej granicy cukru.",
+    "Dokładnie umyj każdy owoc, zetrzyj suchą ściereczką meszek ze skórki (daje goryczkę) i KONIECZNIE usuń gniazda nasienne — pestki zawierają glikozydy cyjanogenne i nadają gorzki smak.",
+    "Pigwa jest BARDZO TWARDA — pokrój owoce na cienkie plasterki, drobną kostkę albo zetrzyj na grubej tarce; im drobniej, tym szybsza i wydajniejsza ekstrakcja.",
+    "Układaj owoce w wyparzonym słoju warstwami, przesypując każdą warstwę cukrem (łącznie ok. 500 g); zamknij i odstaw w ciepłe miejsce na 5-10 dni, codziennie potrząsając.",
+    "Gdy powstanie aromatyczny syrop, zalej owoce mieszanką 500 ml spirytusu 95% + 500 ml wódki 40% + 250 ml przegotowanej, ostudzonej wody; owoce muszą być całkowicie przykryte.",
+    "Maceruj 4-8 tygodni w ciemnym miejscu w temperaturze pokojowej; raz w tygodniu delikatnie wymieszać.",
+    "Spróbuj — w razie potrzeby dosłodź syropem z dodatkowych 50-100 g cukru rozpuszczonego w odrobinie nalewki.",
+    "Zlej nalewkę znad osadu, przefiltruj przez gazę, rozlej do butelek; leżakuj minimum 3 miesiące, najlepiej 6-12."
+  ],
+  "sourceUrls": [
+    "https://tarascobar.pl/domowa-nalewka-z-pigwy-prosty-przepis-na-zlocisty-trunek",
+    "https://www.zpigwowca.pl/pigwowiec-w-kuchni/1/najprostsza-nalewka-z-pigwowca/",
+    "https://www.kulinarna.pl/przepis-na-nalewke-z-pigwy-krok-po-kroku-w-domu/",
+    "https://alcomax.pl/pigwowka-na-bimbrze/"
+  ]
+}

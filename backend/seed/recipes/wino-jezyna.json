@@ -1,0 +1,25 @@
+{
+  "name": "Wino z jeżyn",
+  "fruit": "jeżyna",
+  "category": "wino",
+  "fruitKg": 5.0,
+  "sugarKg": 4.0,
+  "waterL": 5.0,
+  "yeastType": "drożdże winiarskie do win czerwonych (np. Bordeaux, Burgund, Malaga) + pożywka",
+  "targetAbv": 14,
+  "fermentationDays": 120,
+  "steps": [
+    "Przygotuj matkę drożdżową 2-3 dni wcześniej: drożdże winiarskie + łyżka cukru w letniej (25-30°C) przegotowanej wodzie, odstaw aż zaczną pracować.",
+    "Przebierz dojrzałe jeżyny, usuń nadgnite owoce, delikatnie opłucz i odsącz.",
+    "Rozgnieć/zmiażdż owoce drewnianym tłuczkiem w wyparzonym pojemniku fermentacyjnym; zasyp 2 kg cukru i odstaw pod ściereczką na 2 dni, aż puszczą sok.",
+    "Z pozostałych 1,5 kg cukru i 3 l wody przygotuj syrop, ostudź do temperatury pokojowej (gorący syrop zabija drożdże).",
+    "Połącz w gąsiorze sok z owocami, ostudzony syrop, pożywkę dla drożdży i rozruszaną matkę drożdżową; załóż korek z rurką fermentacyjną.",
+    "Fermentuj w 18-22°C, z dala od światła. Po ustaniu burzliwej fermentacji (1-2 tygodnie) zlej znad osadu i dodaj drugi syrop z 2 l wody + 1 kg cukru.",
+    "Po ok. 4 miesiącach cichej fermentacji zlej wino znad osadu, rozlej do butelek i leżakuj w chłodzie minimum 2-3 miesiące."
+  ],
+  "sourceUrls": [
+    "https://alembik.eu/blog/post/135-jak-zrobic-wino-jezynowe-czyli-wino-z-jezyn-przepis.html",
+    "https://fajnyogrod.pl/kuchnia/wina-domowe/wino-z-jezyn-sprawdzone-przepisy-na-pyszne-wino-domowej-roboty/",
+    "http://weekendywdomuiogrodzie.blogspot.com/2019/08/domowe-wino-z-jezyn.html"
+  ]
+}

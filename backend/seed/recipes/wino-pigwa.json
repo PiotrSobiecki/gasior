@@ -1,0 +1,27 @@
+{
+  "name": "Wino z pigwy / pigwowca",
+  "fruit": "pigwa",
+  "category": "wino",
+  "fruitKg": 15.0,
+  "sugarKg": 5.0,
+  "waterL": 17.0,
+  "yeastType": "drożdże winiarskie (np. Tokaj 22 Zamojscy, Malaga) + pożywka dla drożdży",
+  "targetAbv": 13,
+  "fermentationDays": 90,
+  "steps": [
+    "3-4 dni wcześniej przygotuj matkę drożdżową: drożdże + pożywka + łyżka cukru w letniej, przegotowanej wodzie; trzymaj zaczopowane watą w cieple, aż zaczną pracować.",
+    "Owoce dokładnie umyj, zetrzyj meszek ze skórki, usuń ogonki, liście i KONIECZNIE gniazda nasienne (gorycz i glikozydy cyjanogenne w pestkach).",
+    "Pigwa jest BARDZO TWARDA — pokrój owoce na cienkie plasterki, paski lub zmiel; drobniejsze rozdrobnienie daje więcej soku i lepszą ekstrakcję.",
+    "Pokrojone owoce ułóż w wyparzonym pojemniku fermentacyjnym.",
+    "Przygotuj pierwszy syrop: 10 l wody + 3 kg cukru, podgrzej do rozpuszczenia, ostudź do temperatury pokojowej (gorący syrop zabija drożdże!).",
+    "Wlej ostudzony syrop na owoce, dodaj pożywkę i matkę drożdżową, wymieszaj; załóż korek z rurką fermentacyjną.",
+    "Przez ok. 2 tygodnie codziennie mieszaj czystą łyżką, przebijając kapelusz owoców.",
+    "Po 2 tygodniach odcedź owoce, sok przelej do gąsiora i dolej drugi, ostudzony syrop z 7 l wody i 2 kg cukru.",
+    "Trzymaj w 18-22°C aż do ustania bulgotania w rurce (5-7 tygodni); zlej znad osadu, ewentualnie ponów zlewanie po kolejnych tygodniach. Leżakuj w butelkach minimum 3 miesiące."
+  ],
+  "sourceUrls": [
+    "https://malinowynos.pl/Przepis-na-wino-z-pigwy",
+    "https://fajnyogrod.pl/kuchnia/wina-domowe/wino-z-pigwy-sprawdzone-przepisy-na-wino-z-owocow-pigwowca/",
+    "https://fajnegotowanie.pl/przepis/wino-z-pigwy/"
+  ]
+}

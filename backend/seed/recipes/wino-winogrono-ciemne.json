@@ -1,0 +1,26 @@
+{
+  "name": "Wino z ciemnych winogron (na dzikich drożdżach)",
+  "fruit": "winogrono",
+  "category": "wino",
+  "fruitKg": 10.0,
+  "sugarKg": 2.5,
+  "waterL": 1.5,
+  "yeastType": "dzikie drożdże ze skórek winogron (opcjonalnie wsparcie drożdżami winiarskimi do win czerwonych)",
+  "targetAbv": 11,
+  "fermentationDays": 56,
+  "steps": [
+    "10 kg dojrzałych ciemnych winogron NIE MYJ (na skórkach są naturalne drożdże). Oderwij od szypułek, wybierz tylko zdrowe owoce.",
+    "Rozgnieć owoce w rękach lub tłuczkiem (razem ze skórkami i pestkami).",
+    "Przełóż do balona, wsyp ok. 1 kg cukru, opcjonalnie dolej 1-1,5 l wody jeśli moszcz jest gęsty lub kwaśny.",
+    "Załóż rurkę fermentacyjną, ustaw w temp. 18-25°C; po kilku dniach pojawią się bąbelki - fermentacja ruszyła.",
+    "Po tygodniu odlej trochę soku, rozpuść w nim drugą porcję cukru (ok. 1 kg) i wlej z powrotem. Powtórz po kilku dniach z resztą (ok. 0,5 kg).",
+    "Po ok. 3 tygodniach odcedź czapkę ze skórek przez gazę lub sito, zostaw w balonie tylko płyn.",
+    "Uzupełnij balon, załóż ponownie rurkę i kontynuuj fermentację cichą przez kilka tygodni w chłodniejszym miejscu.",
+    "Zlewaj znad osadu, leżakuj minimum 2 miesiące, butelkuj."
+  ],
+  "sourceUrls": [
+    "https://www.sadyogrody.pl/z_innej_skrzynki/141/domowe_wino_z_ciemnych_winogron_przepis_jest_prostszy_niz_myslisz,48975.html",
+    "https://przepisy.siuchta.eu/2025/10/13/wino-z-winogron-bez-drozdzy-naturalna-fermentacja-w-domowym-wydaniu/",
+    "https://drfood.pl/przepis-na-wino-tradycyjne-metody-domowej-produkcji/"
+  ]
+}

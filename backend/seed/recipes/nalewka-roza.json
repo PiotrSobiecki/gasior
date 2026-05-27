@@ -1,0 +1,27 @@
+{
+  "name": "Nalewka z płatków dzikiej róży",
+  "fruit": "róża",
+  "category": "nalewka",
+  "fruitKg": 0.2,
+  "sugarKg": 0.4,
+  "waterL": 0.5,
+  "yeastType": "brak (maceracja alkoholowa)",
+  "targetAbv": 30,
+  "fermentationDays": 90,
+  "steps": [
+    "Zbieraj świeżo rozwinięte, mięsiste płatki Rosa rugosa (róża pomarszczona / dzika) lub Rosa damascena z miejsc niepryskanych, z dala od dróg; najlepiej rano, w pełni rozwinięte kwiaty.",
+    "Płatki przebierz, usuń owady, listki i zanieczyszczenia; odetnij białe końcówki u nasady płatka, bo mogą dawać gorzki posmak.",
+    "Odmierz ok. 200 g świeżych płatków (= pełny słój 1,5-2 l luźno upakowanych); NIE myj płatków w wodzie, by nie wypłukać aromatu — co najwyżej przedmuchaj.",
+    "Włóż płatki do wyparzonego słoja i zalej 500 ml spirytusu 95%; szczelnie zamknij i odstaw w ciemne, chłodne miejsce na 7-14 dni, codziennie potrząsając.",
+    "Po maceracji odcedź spirytusowy nalew przez gazę, delikatnie wyciśnij płatki (nie ucieraj, żeby nie wprowadzić goryczki).",
+    "Przygotuj syrop: rozpuść 400 g cukru w 500 ml przegotowanej, ostudzonej wody i dodaj sok z 1-2 cytryn (utrwala kolor i równoważy mdłość).",
+    "Połącz ostudzony syrop z nalewem alkoholowym w słoju, zamknij i odstaw na 2-3 tygodnie do przegryzienia smaków.",
+    "Przefiltruj przez gazę i wacik kosmetyczny, rozlej do ciemnych butelek (kolor blednie pod wpływem światła); leżakuj minimum 1 miesiąc, najlepiej 3."
+  ],
+  "sourceUrls": [
+    "https://smakirozy.pl/likier-rozany-aromatyczny-trunek-na-wieczor/",
+    "https://malinowynos.pl/nalewka-dzikiej-rozy",
+    "https://bibliotekanalewek.pl/przepisy/nalewki-owocowe/nalewka-platkow-dzikiej-rozy/",
+    "https://wykrywacz-smaku.pl/przepis/nalewka-z-platkow-rozy/"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Nalewka z owoców czarnego bzu",
+  "fruit": "czarny bez",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.25,
+  "waterL": 0.0,
+  "yeastType": "brak (maceracja w alkoholu)",
+  "targetAbv": 40,
+  "fermentationDays": 30,
+  "steps": [
+    "Wyparz słój (min. 3 l) i wszystkie akcesoria; do nalewki używaj wyłącznie legalnego spirytusu rektyfikowanego lub dobrej jakości wódki.",
+    "Zbieraj WYŁĄCZNIE w pełni dojrzałe, czarno-fioletowe owoce czarnego bzu (Sambucus nigra); odrzuć zielone jagody — zawierają toksyczną sambunigrynę.",
+    "Obierz owoce z szypułek i listków, umyj i osusz.",
+    "OBRÓBKA TERMICZNA — KONIECZNA: przełóż 1 kg owoców do garnka, dodaj ok. 100 ml wody i gotuj na małym ogniu 15–20 minut, mieszając. Surowych owoców nie używaj — mogą wywołać silne dolegliwości żołądkowe.",
+    "Wystudź owoce i przełóż razem z sokiem do słoja; opcjonalnie dodaj 1 laskę cynamonu i 3–4 goździki.",
+    "Zalej 1 l alkoholu o mocy ok. 70% (np. 0,5 l spirytusu 95% + 0,5 l wódki 40%); zakręć i odstaw na 4 tygodnie w ciemne miejsce, potrząsając co kilka dni.",
+    "Po maceracji odcedź nalew przez gęste sitko lub gazę, dokładnie odciskając owoce; pozostałości wyrzuć.",
+    "Owoce zasyp 0,25 kg cukru, poczekaj aż powstanie syrop (5–7 dni), połącz z nalewem, przefiltruj i rozlej do butelek; leżakuj minimum 6 miesięcy."
+  ],
+  "sourceUrls": [
+    "https://klubwino.pl/domowa-nalewka-z-czarnego-bzu-sprawdzony-przepis/",
+    "https://moje-drinki.pl/nalewka-z-czarnego-bezu/",
+    "https://sklep-manufakturawodek.pl/_blog/41-Czarny_bez_-_wlasciwosci_i_przepis_na_nalewke_na_spirytusie_.html"
+  ]
+}

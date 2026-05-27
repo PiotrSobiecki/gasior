@@ -1,0 +1,28 @@
+{
+  "name": "Nalewka śliwkowa z węgierek (prosta, na wódce)",
+  "fruit": "śliwka",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.3,
+  "waterL": 0.0,
+  "yeastType": "brak — maceracja w alkoholu (bez fermentacji drożdżowej)",
+  "targetAbv": 30,
+  "fermentationDays": 120,
+  "steps": [
+    "Wybierz 1 kg dojrzałych, jędrnych śliwek węgierek — bez pleśni i robaków.",
+    "Umyj i osusz owoce.",
+    "DRYLOWANIE — przekrój każdą śliwkę na pół i usuń wszystkie pestki. Pestki zawierają amigdalinę uwalniającą cyjanowodór, więc dla bezpieczeństwa usuwamy je w całości.",
+    "Włóż wydrylowane śliwki do dużego słoja.",
+    "Zalej 0,5 l dobrej jakości wódki 40% (lub spirytusem rozcieńczonym do 40–50%).",
+    "Słój zamknij i odstaw w chłodne, ciemne miejsce na 4–6 tygodni; przez pierwsze 2 tygodnie delikatnie wstrząsaj codziennie.",
+    "Po maceracji zlej alkohol do czystego naczynia, a śliwki w słoju zasyp 250–300 g cukru.",
+    "Słój z cukrem odstaw na 2–3 tygodnie — cukier wyciągnie sok i utworzy syrop.",
+    "Połącz zlany alkohol z syropem śliwkowym i przefiltruj.",
+    "Przelej do butelek i leżakuj minimum 3 miesiące — im dłużej, tym lepiej."
+  ],
+  "sourceUrls": [
+    "https://multicooker.pl/jak-zrobic-nalewke-ze-sliwek-przepis-na-nalewke-z-wegierek",
+    "https://odczarujgary.pl/nalewka-sliwek-sliwki-wodce/",
+    "https://kuchnianawypasie.pl/nalewka-ze-sliwek-na-spirytusie/"
+  ]
+}

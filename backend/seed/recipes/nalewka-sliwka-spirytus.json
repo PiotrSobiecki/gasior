@@ -1,0 +1,28 @@
+{
+  "name": "Nalewka śliwkowa na spirytusie (śliwówka klasyczna)",
+  "fruit": "śliwka",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.4,
+  "waterL": 0.0,
+  "yeastType": "brak — nie ma fermentacji drożdżowej, alkohol z bazy spirytusowej (maceracja)",
+  "targetAbv": 40,
+  "fermentationDays": 180,
+  "steps": [
+    "Wybierz dojrzałe, jędrne śliwki węgierki — to one dają najlepszy rubinowy kolor i głęboki aromat nalewki.",
+    "Umyj owoce w zimnej wodzie i osusz.",
+    "DRYLOWANIE — przekrój każdą śliwkę i usuń pestki. Pestki śliwek zawierają amigdalinę, a przy długiej maceracji w mocnym alkoholu uwalnianie związków cyjanogennych jest bardziej intensywne niż w samej wodzie; klasyczny bezpieczny przepis przewiduje pełne drylowanie. Jeśli świadomie szukasz delikatnej nuty migdałowej, można zostawić 2–3 pestki na słoik, ale to ryzyko smakowe i sanitarne.",
+    "Wydrylowane śliwki włóż do dużego słoja.",
+    "Wymieszaj ok. 500 ml spirytusu 95% z ok. 500 ml wódki 40% (efektywnie ~1 l alkoholu o mocy ~65%) i zalej śliwki tak, aby były całkowicie przykryte.",
+    "Słój szczelnie zamknij i odstaw w ciemne, ciepłe miejsce na 5 tygodni. Co 2–3 dni delikatnie potrząsaj.",
+    "Po 5 tygodniach zlej alkohol do osobnego naczynia. Śliwki w słoju zasyp ok. 400 g cukru.",
+    "Słój z cukrem odstaw na 2–4 tygodnie, potrząsając co kilka dni — cukier wyciągnie pozostały spirytus i utworzy syrop.",
+    "Połącz zlany alkohol z powstałym syropem, przefiltruj (filtr do kawy lub bibuła).",
+    "Przelej do butelek, zakorkuj i odstaw na minimum 4–6 miesięcy do leżakowania."
+  ],
+  "sourceUrls": [
+    "https://beszamel.se.pl/przepisy/napoje/sliwowica-czyli-nalewka-ze-sliwek-dobry-przepis-wideo-re-kUEt-Lp46-mRNP.html",
+    "https://kuchnianawypasie.pl/nalewka-ze-sliwek-na-spirytusie/",
+    "https://odczarujgary.pl/nalewka-sliwek-sliwki-wodce/"
+  ]
+}

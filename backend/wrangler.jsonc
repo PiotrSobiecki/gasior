@@ -1,0 +1,27 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gasior-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-05-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  // R2 bucket dla zdjęć z dziennika. Lokalnie wrangler emuluje R2 w .wrangler/.
+  // Bez tego binding'u backend używa in-memory storage (zdjęcia "znikają"
+  // po restarcie procesu) — OK do testów UI, NIE do prod.
+  //
+  // Aby włączyć: utwórz bucket w Cloudflare i odkomentuj poniższe:
+  //   npx wrangler r2 bucket create gasior-photos
+  //
+  "r2_buckets": [
+    {
+      "binding": "BUCKET_PHOTOS",
+      "bucket_name": "gasior-photos",
+      "preview_bucket_name": "gasior-photos-dev"
+    }
+  ]
+  // DATABASE_URL ustaw jako sekret:
+  //   lokalnie -> backend/.dev.vars
+  //   produkcja -> npx wrangler secret put DATABASE_URL
+}

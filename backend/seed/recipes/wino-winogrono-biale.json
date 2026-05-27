@@ -1,0 +1,26 @@
+{
+  "name": "Wino z białych winogron",
+  "fruit": "winogrono",
+  "category": "wino",
+  "fruitKg": 13.0,
+  "sugarKg": 2.2,
+  "waterL": 1.0,
+  "yeastType": "drożdże winiarskie do białych win (np. szczepy aromatyczne, 5-10 g)",
+  "targetAbv": 12,
+  "fermentationDays": 35,
+  "steps": [
+    "13 kg dojrzałych białych winogron oderwij od szypułek, lekko rozgnieć (bez miażdżenia pestek).",
+    "Dodaj pektoenzym (2-4 ml/10 l) i pożywkę dla drożdży (3-5 g/10 l).",
+    "Zmierz BLG cukromierzem; cel: ok. 20-22 BLG (potencjał ~11-12% ABV). Dosłódź zgodnie z pomiarem (zwykle 1,8-2,6 kg cukru łącznie).",
+    "Cukier rozpuść w niewielkiej ilości moszczu lub wody (max 1-2 l), dodaj na 2 raty - start i po 5-7 dniach.",
+    "Rozrusz drożdże winiarskie (matka drożdżowa w letniej wodzie ok. 30°C z łyżeczką cukru, 20 min) i dodaj do moszczu.",
+    "Fermentuj burzliwie 7-10 dni w temp. 18-20°C (białe lubią niższą temperaturę dla zachowania aromatów).",
+    "Po fermentacji burzliwej zlej znad osadu, kontynuuj fermentację cichą 3-4 tygodnie pod rurką.",
+    "Zlewaj znad osadu co kilka tygodni, klaruj, leżakuj minimum 2-3 miesiące i butelkuj."
+  ],
+  "sourceUrls": [
+    "https://mniami.pl/wino-z-bialych-winogron-przepis-na-domowy-trunek/",
+    "https://selfi.pl/przepis-na-domowe-wino-z-winogron-krok-po-kroku/",
+    "https://drfood.pl/przepis-na-wino-tradycyjne-metody-domowej-produkcji/"
+  ]
+}

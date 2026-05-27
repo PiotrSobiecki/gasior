@@ -1,0 +1,25 @@
+{
+  "name": "Wino z malin",
+  "fruit": "malina",
+  "category": "wino",
+  "fruitKg": 4.0,
+  "sugarKg": 2.4,
+  "waterL": 7.0,
+  "yeastType": "drożdże winiarskie do win owocowych (np. Malaga, Tokaj lub Bayanus Strong Vita) + pożywka",
+  "targetAbv": 12,
+  "fermentationDays": 35,
+  "steps": [
+    "Wyparz gąsior, rurkę fermentacyjną i wszystkie naczynia — sanitacja chroni nastaw przed dzikimi drożdżami i pleśnią.",
+    "Przebierz maliny (świeże lub rozmrożone), usuń liście i zepsute owoce; nie myj zbyt intensywnie, by nie wypłukać aromatu.",
+    "Przesyp maliny do gąsiora, zalej syropem z 1,5 kg cukru rozpuszczonego w ok. 4 l ciepłej wody i wystudzonego do ~25°C.",
+    "Dodaj rozruszane drożdże winiarskie i pożywkę; załóż rurkę fermentacyjną.",
+    "Fermentuj burzliwie 7–10 dni w 18–22°C, po czym dodaj drugą porcję cukru (0,9 kg) rozpuszczonego w ok. 1,5 l wody.",
+    "Po ok. 4 tygodniach od startu zlej znad osadu na fermentację cichą, dolewając resztę wody do pełna.",
+    "Po wyklarowaniu (kolejne 4–8 tygodni) zlej ponownie, przefiltruj i rozlej do butelek; leżakuj min. 3 miesiące."
+  ],
+  "sourceUrls": [
+    "https://malinowynos.pl/Przepis-na-wino-malinowe",
+    "https://www.expondo.pl/inspiracje/jak-zrobic-wino-z-malin/",
+    "https://superbutelki.pl/pl/blog/Wino-malinowe-jak-zrobic-Szczegolowy-przepis-i-lista-niezbednych-akcesoriow/167"
+  ]
+}

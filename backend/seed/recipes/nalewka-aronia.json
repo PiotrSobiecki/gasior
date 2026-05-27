@@ -1,0 +1,25 @@
+{
+  "name": "Nalewka z aronii (aroniówka)",
+  "fruit": "aronia",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.5,
+  "waterL": 0.0,
+  "yeastType": "brak (maceracja w alkoholu)",
+  "targetAbv": 38,
+  "fermentationDays": 42,
+  "steps": [
+    "Wyparz słój i akcesoria; do nalewki używaj wyłącznie legalnego spirytusu rektyfikowanego lub dobrej jakości wódki.",
+    "Aronię przebierz, oczyść z szypułek, umyj i osusz; przemroź owoce min. 48 godzin w zamrażarce, by zredukować cierpkość.",
+    "Rozmrożone aronie wsyp do słoja; opcjonalnie dodaj skórkę z cytryny, laskę cynamonu lub 3–4 goździki.",
+    "Zalej 1 l alkoholu o mocy ok. 70% (np. 0,5 l spirytusu 95% + 0,5 l wódki 40%); zakręć słój i odstaw na 4–6 tygodni w ciemne miejsce, potrząsając co kilka dni.",
+    "Po maceracji zlej nalew, a do owoców wsyp 0,5 kg cukru; trzymaj 1–2 tygodnie aż powstanie gęsty syrop.",
+    "Połącz syrop z nalewem, przefiltruj przez bibułę lub gęstą gazę.",
+    "Rozlej do butelek i odstaw na minimum 3 miesiące — najlepszy smak po pół roku leżakowania."
+  ],
+  "sourceUrls": [
+    "https://sowoman.pl/staropolska-nalewka-z-aronii-tradycyjny-przepis-i-wlasciwosci-zdrowotne/",
+    "https://aniagotuje.pl/przepis/nalewka-z-aronii",
+    "https://www.alkoholeswiata.com/blog/nalewka-z-aronii-z-gotowaniem-i-bez-latwy-przepis-krok-po-kroku/"
+  ]
+}

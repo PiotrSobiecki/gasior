@@ -1,0 +1,26 @@
+{
+  "name": "Wino z czereśni",
+  "fruit": "czereśnia",
+  "category": "wino",
+  "fruitKg": 5.0,
+  "sugarKg": 2.2,
+  "waterL": 4.0,
+  "yeastType": "drożdże winiarskie do win czerwonych/owocowych (np. Tokaj, Bordeaux, Enovini OK RED) + pożywka + pektoenzym",
+  "targetAbv": 12,
+  "fermentationDays": 35,
+  "steps": [
+    "Wyparz gąsior, rurkę fermentacyjną i wszystkie narzędzia — czystość decyduje o powodzeniu nastawu.",
+    "Czereśnie umyj, odszypułkuj i wydryluj — pestki zawierają amigdalinę, której nie chcemy uwalniać w długiej fermentacji wodnej.",
+    "Rozgnieć owoce ręcznie lub tłuczkiem; przełóż do gąsiora i dolej 3 l przegotowanej wody ostudzonej do ~30°C.",
+    "Dodaj 1,3 kg cukru rozpuszczonego w 1 l ciepłej wody (z 10 g kwasku cytrynowego — czereśnie są mało kwaśne), pektoenzym oraz pożywkę.",
+    "Wlej rozruszane drożdże winiarskie, załóż rurkę fermentacyjną i prowadź fermentację burzliwą w 20–24°C przez 5–7 dni.",
+    "Dodaj drugą porcję cukru (0,9 kg) rozpuszczonego w 0,5 l wody; mieszaj delikatnie, by nie zatrzymać drożdży.",
+    "Po 4–5 tygodniach zlej znad osadu na cichą fermentację; uzupełnij gąsior do pełna.",
+    "Po wyklarowaniu (ok. 2 miesiące) zlej ponownie, rozlej do butelek i leżakuj minimum 6 miesięcy."
+  ],
+  "sourceUrls": [
+    "https://drfood.pl/przepis-na-wino-tradycyjne-metody-domowej-produkcji/",
+    "https://www.kulinarna.pl/jak-zrobic-wino-z-wisni-domowy-trunek-krok-po-kroku/",
+    "https://kalkulatorbox.pl/kalkulator-winiarski-dosladzanie/"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Wino śliwkowe lekkie (na 10 l)",
+  "fruit": "śliwka",
+  "category": "wino",
+  "fruitKg": 10.0,
+  "sugarKg": 2.5,
+  "waterL": 5.0,
+  "yeastType": "drożdże winiarskie (np. Fermivin do win czerwonych) + pożywka, opcjonalnie pektoenzym",
+  "targetAbv": 11,
+  "fermentationDays": 30,
+  "steps": [
+    "Umyj dojrzałe śliwki węgierki — odrzuć owoce z pleśnią i robakami.",
+    "DRYLOWANIE — przekrój każdą śliwkę i dokładnie usuń pestki. Pestki śliwek zawierają amigdalinę, dlatego dla bezpieczeństwa drylujemy 100% owoców.",
+    "Pokrój śliwki na ćwiartki, układaj warstwami w fermentorze, przesypując cukrem.",
+    "Zostaw na kilka godzin, aby śliwki puściły sok.",
+    "Zalej gorącą (ok. 80°C) przegotowaną wodą — wstępnie sparzy skórki i pomoże w ekstrakcji aromatów.",
+    "Po ostudzeniu do ~25°C dodaj pektoenzym (opcjonalnie) i poczekaj kilka godzin.",
+    "Dodaj aktywne drożdże winiarskie wraz z pożywką.",
+    "Zamknij pojemnik rurką fermentacyjną i ustaw w 18–22°C.",
+    "Przez pierwszy tydzień codziennie delikatnie zatapiaj kożuch ze skórek.",
+    "Po ok. 30 dniach, gdy fermentacja wyraźnie zwolni, zlej znad osadu i odstaw do dojrzewania na 2–6 miesięcy."
+  ],
+  "sourceUrls": [
+    "https://www.winiarzepodkarpacia.pl/kuchnia-i-wino/jak-zrobic-wino-ze-sliwek/",
+    "https://alkohole-domowe.com/forum/przepis-na-wino-ze-sliwek-t5960.html",
+    "https://drfood.pl/przepis-na-wino-tradycyjne-metody-domowej-produkcji/"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Wino wiśniowe (klasyczne)",
+  "fruit": "wiśnia",
+  "category": "wino",
+  "fruitKg": 5.0,
+  "sugarKg": 2.0,
+  "waterL": 5.0,
+  "yeastType": "drożdże winiarskie do win czerwonych/wiśniowych (np. Enovini OK RED, Tokaj) + pożywka + pektoenzym",
+  "targetAbv": 12,
+  "fermentationDays": 35,
+  "steps": [
+    "Wyparz gąsior, rurkę fermentacyjną i wszystkie naczynia — sanitacja chroni nastaw przed pleśnią i kahmem.",
+    "Wiśnie umyj, odszypułkuj i wydryluj — pestki zawierają amigdalinę, która w środowisku wodnym może uwalniać cyjanowodór.",
+    "Rozgnieć owoce ręcznie lub tłuczkiem do ziemniaków; nie miksuj, by nie uszkodzić ewentualnych pozostałych pestek.",
+    "Przygotuj syrop z 1,2 kg cukru rozpuszczonego w 1,5 l gorącej wody (opcjonalnie z 10 g kwasku cytrynowego), wystudź i wlej do miazgi w gąsiorze.",
+    "Dolej resztę wody (ok. 3,5 l), pożywkę, pektoenzym i rozruszane drożdże winiarskie; załóż rurkę fermentacyjną.",
+    "Fermentuj burzliwie w 20–24°C; po 5–7 dniach dodaj drugą porcję cukru (0,8 kg) rozpuszczonego w 0,5 l wody.",
+    "Po 4–5 tygodniach zlej znad osadu na cichą fermentację, ewentualnie przesącz na drugi gąsior.",
+    "Po wyklarowaniu zlej ponownie, rozlej do butelek i leżakuj minimum 3 miesiące — najlepiej 6–12 miesięcy."
+  ],
+  "sourceUrls": [
+    "https://www.kulinarna.pl/jak-zrobic-wino-z-wisni-domowy-trunek-krok-po-kroku/",
+    "https://kawiarnia2pietro.pl/blog/przepis-na-wino-z-wisni-25l.html",
+    "https://winiarze.pl/wino-z-wisni-bez-pestek-na-10l-sprawdzony-przepis-i-sekret-udanego-smaku/"
+  ]
+}

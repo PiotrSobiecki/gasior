@@ -1,0 +1,26 @@
+{
+  "name": "Nalewka z wiśni (wiśniówka spirytusowa)",
+  "fruit": "wiśnia",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.5,
+  "waterL": 0,
+  "yeastType": "brak — nie ma fermentacji drożdżowej, alkohol z bazy spirytusowej (maceracja)",
+  "targetAbv": 40,
+  "fermentationDays": 42,
+  "steps": [
+    "Wyparz duży słój (min. 3 l) i wszystkie narzędzia — przy maceracji w mocnym alkoholu sanitacja chroni przede wszystkim przed obcymi smakami i pleśnią na powierzchni.",
+    "Wiśnie umyj, odszypułkuj i osusz. Drylowanie jest standardem: pestki zawierają amigdalinę, a przy długiej maceracji w mocnym spirytusie uwalnianie związków cyjanogennych jest większe niż w wodzie. Jeśli świadomie chcesz delikatnej migdałowej nuty, możesz zostawić 5–10 pestek na słoik, ale skracaj wtedy macerację.",
+    "Wydrylowane wiśnie włóż do słoja i delikatnie wymieszaj z połową cukru (250 g); odstaw na 1–2 dni, aż owoce puszczą sok.",
+    "Wymieszaj 0,5 l spirytusu rektyfikowanego 95% z 0,5 l wódki 40% (efektywnie ~1 l alkoholu ~67%) i zalej owoce tak, by były całkowicie zanurzone.",
+    "Słój zamknij szczelnie i odstaw w ciemne, chłodne miejsce na 4–6 tygodni; co kilka dni delikatnie potrząsaj, żeby aromaty równomiernie się ekstrahowały.",
+    "Po maceracji zlej nalew do osobnego naczynia (najlepiej przez gazę), a pozostałe owoce zasyp resztą cukru (250 g) i odstaw na 1–2 tygodnie — cukier wyciągnie pozostały alkohol i utworzy gęsty, aromatyczny syrop.",
+    "Połącz zlany nalew z syropem, przefiltruj przez filtr kawowy lub bibułę i przelej do butelek.",
+    "Leżakuj minimum 3 miesiące — wiśniówka znacząco zyskuje po 6–12 miesiącach dojrzewania."
+  ],
+  "sourceUrls": [
+    "https://www.alkoholeswiata.com/blog/nalewka-z-wisni-zasypanych-cukrem-sprawdzony-przepis/",
+    "https://drinkownia.pl/domowa-wisniowka-sprawdzony-przepis-na-nalewke-z-wisni-1753012086",
+    "https://kebab.pl/nalewka-z-wisni-na-spirytusie-przepis-i-wskazowki-przygotowania/"
+  ]
+}

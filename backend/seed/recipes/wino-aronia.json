@@ -1,0 +1,23 @@
+{
+  "name": "Wino z aronii",
+  "fruit": "aronia",
+  "category": "wino",
+  "fruitKg": 2,
+  "sugarKg": 2.04,
+  "waterL": 10,
+  "yeastType": "drożdże winiarskie (Malaga / Tokaj)",
+  "targetAbv": 12,
+  "fermentationDays": 30,
+  "steps": [
+    "Umyj i wyparz gąsior oraz rurkę fermentacyjną — sanitacja jest kluczowa.",
+    "Rozgnieć owoce aronii, zalej syropem z części cukru i ciepłą wodą.",
+    "Dodaj pożywkę dla drożdży i rozfermentowane drożdże winiarskie.",
+    "Załóż rurkę fermentacyjną; fermentuj w 18-22°C przez około 4 tygodnie.",
+    "Po fermentacji burzliwej zlej znad osadu i dosłódź resztą cukru.",
+    "Dojrzewaj kilka miesięcy w chłodzie, zlewając znad osadu w razie potrzeby."
+  ],
+  "sourceUrls": [
+    "https://www.justfood.pl/jak-zrobic-wino-z-aronii-przepis-dla-poczatkujacych/",
+    "http://alkohol-domowy.com/wino/przepisy/wino-z-aronii/"
+  ]
+}

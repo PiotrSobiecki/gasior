@@ -1,0 +1,27 @@
+{
+  "name": "Nalewka z agrestu (agrestówka)",
+  "fruit": "agrest",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.5,
+  "waterL": 0.0,
+  "yeastType": "brak (maceracja alkoholowa)",
+  "targetAbv": 45,
+  "fermentationDays": 60,
+  "steps": [
+    "1 kg dojrzałego agrestu (najlepiej zielonego, lekko miękkiego) umyj, usuń ogonki i szypułki, nakłuj lub lekko nagnieć każdy owoc.",
+    "Wsyp do słoja 3 l, dodaj 500 g cukru i opcjonalnie cienko obraną żółtą skórkę z 1 cytryny (bez albedo) lub laskę wanilii i kawałek imbiru.",
+    "Odstaw słój w ciepłe miejsce na 2-4 dni, aż agrest puści sok i powstanie aromatyczny syrop (potrząsaj słojem 1x dziennie).",
+    "Zalej mieszanką 0,5 l spirytusu 95% + 0,5 l wódki 40% (lub 1 l wódki + 250 ml spirytusu dla wersji łagodniejszej).",
+    "Szczelnie zamknij, odstaw w ciepłe, słoneczne miejsce na 4-6 tygodni, potrząsając słojem co kilka dni, aby cukier się rozpuścił.",
+    "Po macerowaniu przefiltruj nalewkę przez sito, potem przez filtr papierowy lub gazę (filtracja może być wolna).",
+    "Rozlej do butelek, zamknij szczelnie i odstaw na minimum 3 miesiące w chłodne, ciemne miejsce do dojrzewania.",
+    "Z pozostałego po nalewce agrestu można zrobić likier - ponownie zalać alkoholem z większą dawką cukru."
+  ],
+  "sourceUrls": [
+    "https://cookingtime.pl/przepis/nalewka-z-agrestu",
+    "https://www.przyslijprzepis.pl/przepis/agrestowka-3",
+    "https://browin.pl/przepisnik/przepis/agrestowka-nalewka-z-agrestu",
+    "http://rodzinna-kuchnia.blogspot.com/2009/07/nalewka-agrestowa.html"
+  ]
+}

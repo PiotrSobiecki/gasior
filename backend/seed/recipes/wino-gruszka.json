@@ -1,0 +1,26 @@
+{
+  "name": "Wino z gruszek (gruszkówka)",
+  "fruit": "gruszka",
+  "category": "wino",
+  "fruitKg": 8.0,
+  "sugarKg": 2.5,
+  "waterL": 4.0,
+  "yeastType": "drożdże winiarskie do win białych (np. szczep Tokaj, Malaga)",
+  "targetAbv": 12,
+  "fermentationDays": 30,
+  "steps": [
+    "Umyj 8 kg dojrzałych gruszek, usuń gniazda nasienne, pokrój i rozdrobnij na papkę (skórki zostaw).",
+    "Do miazgi dodaj ok. 1,25 kg cukru (połowę), 4 l wody, 10-15 g kwasku cytrynowego (lub sok z 2-3 cytryn) oraz pożywkę dla drożdży (~10 g).",
+    "Wymieszaj i odstaw na 2-3 dni w naczyniu przykrytym gazą w temp. 20-22°C.",
+    "Po 24 godz. dodaj rozruszaną matkę drożdżową (drożdże winiarskie aktywowane w letniej wodzie z odrobiną cukru).",
+    "Po 2-3 dniach przeciśnij miazgę przez gazę i przelej moszcz do balona z rurką fermentacyjną.",
+    "Dodaj pozostały cukier (ok. 1,25 kg) rozpuszczony w odlanej części moszczu, uzupełnij wodą do 10 l.",
+    "Fermentuj przy rurce 3-4 tygodnie w temp. 20-22°C, następnie zlej znad osadu.",
+    "Klaruj, leżakuj minimum 2 miesiące w chłodnym miejscu, zabutelkuj."
+  ],
+  "sourceUrls": [
+    "https://aparaturadobimbru.pl/przepisy/gruszkowka-czyli-przepis-na-wino-z-gruszek-jak-zrobic-bimber-z-gruszek-krok-po-kroku/",
+    "https://barrestauracyjnykociolek.pl/blog/wino-z-gruszek-po-staropolsku-tradycja-i-receptura",
+    "https://fajnyogrod.pl/kuchnia/wina-domowe/wino-z-gruszek-przepisy-sposoby-przygotowania-praktyczne-porady/"
+  ]
+}

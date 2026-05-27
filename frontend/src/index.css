@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Tokeny motywu (Tailwind v4 — konfiguracja w CSS) */
+@theme {
+  --color-bordo: #6b1f2a;
+  --color-amber: #d98324;
+  --color-leaf: #4f7942;
+  --color-cream: #faf6ef;
+  --font-display: "Georgia", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: #2a211c;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Cydr jabłkowy wytrawny",
+  "fruit": "jabłko",
+  "category": "cydr",
+  "fruitKg": 10,
+  "sugarKg": 1.02,
+  "waterL": 10,
+  "yeastType": "drożdże do cydru (np. Mangrove Jack M02)",
+  "targetAbv": 6,
+  "fermentationDays": 21,
+  "steps": [
+    "Umyj i wyparz gąsior oraz prasę do owoców — dokładna sanitacja zapobiega kahmowi.",
+    "Umyj jabłka, wytłocz sok i przelej do gąsiora razem z dodatkiem wody.",
+    "Dodaj cukier, pożywkę dla drożdży i rozfermentowane drożdże do cydru.",
+    "Załóż rurkę fermentacyjną; fermentuj w 15-18°C przez około 3 tygodnie.",
+    "Po zakończeniu fermentacji zlej znad osadu i przelej do butelek z koronkowymi kapslami.",
+    "Leżakuj 2-3 tygodnie; pij schłodzony."
+  ],
+  "sourceUrls": [
+    "http://italianizzato.blogspot.com/2014/11/przepis-na-domowy-cydr.html",
+    "https://czerwonygrzybek.pl/Mangrove-Jack-s-Drozdze-do-Cydru-9g-M02-p678c61c97.html"
+  ]
+}

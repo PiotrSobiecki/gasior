@@ -1,0 +1,26 @@
+{
+  "name": "Wino z agrestu półsłodkie",
+  "fruit": "agrest",
+  "category": "wino",
+  "fruitKg": 6.0,
+  "sugarKg": 3.0,
+  "waterL": 5.0,
+  "yeastType": "drożdże winiarskie (uniwersalne lub do win owocowych) + pożywka",
+  "targetAbv": 13,
+  "fermentationDays": 35,
+  "steps": [
+    "Umyj 6 kg agrestu (najlepiej nie do końca dojrzałego), usuń ogonki i zmiażdż owoce tłuczkiem lub miazgownicą.",
+    "Przygotuj syrop wstępny - rozpuść 2 kg cukru w 3 l wody, zalej zmiażdżony agrest i odstaw na 3 dni przykryte gazą (agrest zacznie fermentować na dzikich drożdżach).",
+    "W tym czasie przygotuj matkę drożdżową z drożdży winiarskich (rozruszanie w letniej wodzie z łyżeczką cukru, ok. 20-30 min).",
+    "Po 3 dniach wyciśnij owoce przez prasę lub gazę, przelej moszcz do balona fermentacyjnego.",
+    "Dodaj resztę cukru (1 kg rozpuszczony w 2 l ciepłej wody), matkę drożdżową i pożywkę. Uzupełnij wodą.",
+    "Załóż rurkę fermentacyjną, fermentuj w ciemnym, ciepłym miejscu (20-25°C) ok. 2 tygodnie (fermentacja burzliwa).",
+    "Po tygodniu dodaj kolejną porcję 1 kg cukru rozpuszczonego w odlanej części moszczu (cukier partiami, aby nie zatrzymać drożdży).",
+    "Po zakończeniu fermentacji zlej znad osadu, klaruj, leżakuj 2-3 miesiące i butelkuj."
+  ],
+  "sourceUrls": [
+    "https://fajnyogrod.pl/kuchnia/wina-domowe/wino-z-agrestu-sprawdzone-przepisy-na-wina-z-agrestem-krok-po-kroku/",
+    "https://mykitchen.pl/jak-samodzielnie-zrobic-domowe-wino-z-agrestu-czeresni-i-zyta/",
+    "https://drfood.pl/przepis-na-wino-tradycyjne-metody-domowej-produkcji/"
+  ]
+}

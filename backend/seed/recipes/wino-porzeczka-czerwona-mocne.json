@@ -1,0 +1,24 @@
+{
+  "name": "Wino z czerwonej porzeczki (mocniejsze, 14% ABV)",
+  "fruit": "porzeczka czerwona",
+  "category": "wino",
+  "fruitKg": 5.0,
+  "sugarKg": 2.5,
+  "waterL": 4.5,
+  "yeastType": "drożdże winiarskie do win owocowych (Enovini, Aromatic Wine Complex) + pożywka ok. 4 g",
+  "targetAbv": 14,
+  "fermentationDays": 40,
+  "steps": [
+    "Porzeczki umyj wodą w wiadrze (liście wypłyną), oberwij szypułki — dopiero na końcu, by nie tracić soku.",
+    "Owoce rozdrobnij i przełóż do fermentora.",
+    "Rozpuść 1.5 kg cukru w 3 l ciepłej wody (syrop), ostudź i wlej do nastawu wraz z pożywką i drożdżami (matka drożdżowa lub drożdże nie wymagające rozruchu).",
+    "Po ok. 7 dniach dolej drugą porcję syropu (1 kg cukru + 1.5 l wody).",
+    "Fermentację burzliwą prowadź ~4 tygodnie pod rurką, mieszając kilka razy dziennie w pierwszych dniach.",
+    "Zlej znad osadu, prowadź fermentację cichą do sklarowania (kolejne 4–8 tygodni), butelkuj."
+  ],
+  "sourceUrls": [
+    "https://malinowynos.pl/Przepis-na-wino-porzeczkowe-projekt-Mauzer",
+    "https://alternativebar.pl/domowe-wino-z-czerwonych-porzeczek-twoj-przewodnik-krok-po-kroku",
+    "https://drfood.pl/przepis-na-wino-tradycyjne-metody-domowej-produkcji/"
+  ]
+}

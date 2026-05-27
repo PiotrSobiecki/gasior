@@ -1,0 +1,23 @@
+# zależności
+node_modules/
+
+# build
+dist/
+.wrangler/
+
+# sekrety — NIGDY nie commituj
+.env
+.env.local
+.dev.vars
+.prod.vars
+.env.prod
+.prod.vars.example
+.env.production
+.env.production.example
+
+# dane testowe
+seed/recipes/
+
+# logi i system
+*.log
+.DS_Store

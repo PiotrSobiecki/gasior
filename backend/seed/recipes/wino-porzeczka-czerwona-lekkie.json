@@ -1,0 +1,25 @@
+{
+  "name": "Wino z czerwonej porzeczki (lekkie, 12% ABV)",
+  "fruit": "porzeczka czerwona",
+  "category": "wino",
+  "fruitKg": 5.0,
+  "sugarKg": 2.0,
+  "waterL": 4.0,
+  "yeastType": "drożdże winiarskie Enovini Porzeczka lub Aromatic Wine Complex + 4 g pożywki + 1 ml pektoenzymu",
+  "targetAbv": 12,
+  "fermentationDays": 35,
+  "steps": [
+    "Porzeczki umyj, oderwij od szypułek, zgnieć (można mikserem na małych obrotach).",
+    "Pulpę przełóż do pojemnika fermentacyjnego, dodaj 2 l przegotowanej i ostudzonej wody, pektoenzym oraz uwodnione drożdże winiarskie.",
+    "Odstaw na 3 dni — owoce puszczą sok, ruszy wstępna fermentacja; potem odciśnij miazgę przez worek/filtr do moszczu.",
+    "Młody moszcz przelej do balona, dodaj syrop cukrowy (2 kg cukru rozpuszczonego w 2 l wody), pożywkę oraz 0.5 szklanki mocno zaparzonej czarnej herbaty (źródło garbników).",
+    "Załóż rurkę fermentacyjną i odstaw w zacienione miejsce na ok. 4 tygodnie fermentacji burzliwej.",
+    "Po zakończeniu fermentacji burzliwej zlej znad osadu wężykiem, prowadź fermentację cichą do pełnego sklarowania; butelkuj."
+  ],
+  "sourceUrls": [
+    "https://www.deptana.pl/pl/n/Wino-z-czerwonej-porzeczki/182",
+    "https://alternativebar.pl/domowe-wino-z-czerwonych-porzeczek-twoj-przewodnik-krok-po-kroku",
+    "https://fajnyogrod.pl/kuchnia/wina-domowe/wino-z-czerwonej-porzeczki-sprawdzone-przepisy-krok-po-kroku/",
+    "https://cortendesign.pl/porzeczkowe-sekrety-domowego-wina-od-pierwszej-fermentacji-po-pelnie-smaku/"
+  ]
+}

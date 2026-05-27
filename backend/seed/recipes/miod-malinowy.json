@@ -1,0 +1,23 @@
+{
+  "name": "Miód pitny malinowy (melomel lekki)",
+  "fruit": "malina",
+  "category": "miod",
+  "fruitKg": 1.5,
+  "sugarKg": 0.85,
+  "waterL": 10,
+  "yeastType": "drożdże do miodów pitnych (np. Lalvin 71B)",
+  "targetAbv": 5,
+  "fermentationDays": 60,
+  "steps": [
+    "Wyparz gąsior, garnek i rurkę fermentacyjną — sterylizacja sprzętu jest obowiązkowa.",
+    "Rozpuść miód w wodzie podgrzanej do około 60°C; nie gotuj, by nie tracić aromatu.",
+    "Wystudź brzeczkę do 25°C, przelej do gąsiora i dodaj rozgniecione maliny.",
+    "Dodaj rozfermentowane drożdże i pożywkę; załóż rurkę fermentacyjną.",
+    "Fermentuj w 18-22°C przez około 2 miesiące, obserwując rurkę fermentacyjną.",
+    "Zlej znad osadu i leżakuj minimum 6 miesięcy — im dłużej, tym lepszy bukiet."
+  ],
+  "sourceUrls": [
+    "https://www.miodnia.pl/wyrob-miodu-pitnego-domowym-sposobem-kompletny-przewodnik/",
+    "https://miodosytnia-filkowscy.pl/diy-miod-pitny-przepis/"
+  ]
+}

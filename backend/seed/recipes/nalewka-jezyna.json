@@ -1,0 +1,27 @@
+{
+  "name": "Nalewka z jeżyn (jeżynówka)",
+  "fruit": "jeżyna",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.5,
+  "waterL": 0.0,
+  "yeastType": "brak (maceracja alkoholowa)",
+  "targetAbv": 35,
+  "fermentationDays": 60,
+  "steps": [
+    "Przebierz dojrzałe, zdrowe jeżyny, delikatnie opłucz i dokładnie odsącz; mogą być też świeżo mrożone (nie rozmrażać przed zalaniem).",
+    "Owoce przełóż do wyparzonego słoja o pojemności ok. 2-3 l.",
+    "Zalej najpierw 500 ml wódki 40%, potem 500 ml spirytusu 95% (mieszanka ~67%); szczelnie zakręć słój.",
+    "Maceruj w ciepłym, zacienionym miejscu 14-28 dni, co kilka dni delikatnie potrząsając; jeżyny powinny zblednąć.",
+    "Zlej klarowny nalew przez gazę do osobnego naczynia; owoce pozostałe w słoju zasyp 500 g cukru.",
+    "Słój z cukrem odstaw w ciepłe miejsce na 5-7 dni, codziennie potrząsając, aż cukier zamieni się w syrop.",
+    "Odcedź powstały syrop, lekko odciśnij owoce i połącz syrop z wcześniej zlanym alkoholem.",
+    "Przefiltruj przez gazę lub wacik kosmetyczny, rozlej do butelek i leżakuj w chłodzie minimum 2 miesiące (najlepiej 6)."
+  ],
+  "sourceUrls": [
+    "https://www.pyszniej.pl/nalewka-z-jezyn-na-spirytusie-przepis-krok-po-kroku/",
+    "https://www.alkoholeswiata.com/blog/nalewka-z-jezyn-przepis-na-domowa-nalewke/",
+    "https://www.wedrowkipokuchni.com.pl/nalewka-jezynowa/",
+    "https://www.mojegotowanie.pl/przepis/nalewka-z-jezyn"
+  ]
+}

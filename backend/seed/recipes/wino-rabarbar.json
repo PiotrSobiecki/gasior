@@ -1,0 +1,26 @@
+{
+  "name": "Wino rabarbarowe",
+  "fruit": "rabarbar",
+  "category": "wino",
+  "fruitKg": 8.0,
+  "sugarKg": 4.0,
+  "waterL": 6.0,
+  "yeastType": "drożdże winiarskie do win owocowych (np. Tokaj, Malaga) + pożywka (fosforan amonowy)",
+  "targetAbv": 13,
+  "fermentationDays": 40,
+  "steps": [
+    "Wyparz gąsior 10 l, garnek, rurkę i woreczek płócienny do odciskania moszczu.",
+    "Łodygi rabarbaru wyłamuj (nie tnij u nasady); umyj, usuń liście (TRUJĄCE — wyrzuć), pokrój łodygi na 2 cm kawałki.",
+    "ELIMINACJA KWASU SZCZAWIOWEGO — KONIECZNA: zalej rabarbar 5 l wody z dodatkiem czystej kredy spożywczej (węglan wapnia) w proporcji 1,5 g kredy na 1 kg rabarbaru. Gotuj na wolnym ogniu kilka minut.",
+    "Wystudź wywar, dolej 1 l wody i odstaw w chłodne miejsce na 3 dni, mieszając codziennie.",
+    "Odciśnij moszcz przez wyparzony woreczek; szczawian wapnia osiądzie wraz z gęstwą — to dobrze, klaruje wino.",
+    "Do moszczu dodaj 2 kg cukru rozpuszczonego w 0,5 l gorącej wody, 25 g kwasku cytrynowego, pożywkę i rozruszane drożdże winiarskie.",
+    "Przelej do gąsiora, załóż rurkę fermentacyjną; po 7–10 dniach burzliwej fermentacji dodaj drugą porcję cukru (2 kg) w postaci syropu.",
+    "Po 4–5 tygodniach zlej znad osadu na cichą fermentację, klaruj i rozlej do butelek; leżakuj minimum 6 miesięcy."
+  ],
+  "sourceUrls": [
+    "https://inspiracje.polki.pl/kuchnia/napoje/przepis-na-wino-z-rabarbaru-12-14/",
+    "https://alkohole-domowe.com/wino/przepisy-na-wina-owocowe/wino-z-rabarbaru.html",
+    "https://ilovewino.pl/wino-rabarbarowe/"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Cydr gruszkowo-jablkowy (Perry)",
+  "fruit": "gruszka",
+  "category": "cydr",
+  "fruitKg": 15.0,
+  "sugarKg": 0.0,
+  "waterL": 0.0,
+  "yeastType": "drożdże winiarskie do cydru (np. Lalvin lub uniwersalne winiarskie) + pożywka",
+  "targetAbv": 5,
+  "fermentationDays": 28,
+  "steps": [
+    "Wyselekcjonuj 15 kg soczystych gruszek + 3 kg kwaśnych jabłek (jabłka uzupełniają niedobór kwasowości w gruszkach).",
+    "Owoce poleżakuj kilka dni, aby się wysłodziły; umyj i usuń te z oznakami gnicia.",
+    "Rozdrobnij na pulpę (rozdrabniarka / maszynka), następnie wyciśnij sok prasą lub sokowirówką (powinno wyjść ok. 10 l moszczu).",
+    "Cały sprzęt i balon odkaź pirosiarczynem potasu.",
+    "Wlej sok do balona, dodaj rozruszane drożdże do cydru i pożywkę.",
+    "Załóż rurkę fermentacyjną i fermentuj w temp. 18-22°C przez 3-4 tygodnie.",
+    "Po zakończeniu fermentacji zlej znad osadu.",
+    "Opcjonalnie do butelek dodaj 5 g cukru / 0,5 l (refermentacja w butelce daje naturalne nagazowanie); kapsluj i odstaw na 2-3 dni w temp. pokojowej, potem do chłodu na kilka miesięcy."
+  ],
+  "sourceUrls": [
+    "https://magicznyskladnik.pl/domowy-cydr-z-gruszek-przepis/",
+    "https://akademiasmaku.pl/przepisy/cydr-gruszkowy",
+    "https://czerwonygrzybek.pl/Poradnik-czerwonygrzybek-pl/Domowy-cydr/Jak-zrobic-cydr-z-gruszek-bp114bc1bc6.html",
+    "http://pracownianalewek.blogspot.com/2014/11/cydr-jabkowo-gruszkowy.html"
+  ]
+}

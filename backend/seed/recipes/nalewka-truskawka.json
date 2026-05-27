@@ -1,0 +1,25 @@
+{
+  "name": "Nalewka z truskawek (na wódce i spirytusie)",
+  "fruit": "truskawka",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.35,
+  "waterL": 0.25,
+  "yeastType": "brak (maceracja alkoholowa)",
+  "targetAbv": 28,
+  "fermentationDays": 60,
+  "steps": [
+    "Truskawki umyj, odszypułkuj i osusz; w razie potrzeby przekrój na połówki, wsyp do wyparzonego słoja.",
+    "Zalej najpierw 500 ml wódki 40–45%, potem 200 ml spirytusu 95% i 250 ml wody — nigdy nie zalewaj samym spirytusem, bo „spali” delikatne owoce.",
+    "Zakręć słój, potrząśnij, odstaw w ciemne miejsce na 6–7 dni (maceracja).",
+    "Po 7 dniach zlej alkohol przez sitko, owoce zasyp 350 g cukru i 80 ml soku z cytryny, odstaw na 2 dni potrząsając kilka razy dziennie.",
+    "Połącz odlany alkohol z syropem powstałym z owoców, przefiltruj przez gazę lub filtr do kawy.",
+    "Rozlej do butelek i odstaw w ciemne miejsce na minimum 1–3 miesiące do dojrzewania."
+  ],
+  "sourceUrls": [
+    "https://www.2drink.pl/nalewka-truskawkowa/",
+    "https://aniagotuje.pl/przepis/nalewka-z-truskawek",
+    "https://www.mojegotowanie.pl/przepis/nalewka-z-truskawek2",
+    "https://kulinarneprzeboje.pl/nalewka-z-truskawek/"
+  ]
+}

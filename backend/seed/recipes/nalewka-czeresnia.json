@@ -1,0 +1,26 @@
+{
+  "name": "Nalewka czereśniowa (czereśniówka)",
+  "fruit": "czereśnia",
+  "category": "nalewka",
+  "fruitKg": 1.0,
+  "sugarKg": 0.5,
+  "waterL": 0.0,
+  "yeastType": "brak (maceracja w alkoholu)",
+  "targetAbv": 40,
+  "fermentationDays": 42,
+  "steps": [
+    "Wyparz duży słój (min. 3 l), pokrywkę i akcesoria — czystość naczynia jest tak samo ważna jak jakość owoców.",
+    "Wybierz dojrzałe, ciemne i słodkie czereśnie; umyj je, usuń ogonki i osusz. Pestki możesz zostawić — dodadzą subtelnej nuty migdałowej, ale wtedy nie maceruj dłużej niż 6 tygodni.",
+    "Wsyp czereśnie do słoja i zalej 1 l alkoholu o mocy ok. 70% (np. 0,5 l spirytusu 95% + 0,5 l wódki 40%) tak, by owoce były całkowicie przykryte.",
+    "Słój zakręć i odstaw w słonecznym, ciepłym miejscu na 4–6 tygodni; co kilka dni potrząśnij dla równomiernej ekstrakcji.",
+    "Po maceracji zlej nalew alkoholowy do osobnego naczynia; pozostałe owoce zasyp 0,5 kg cukru.",
+    "Trzymaj słój z cukrem 1–2 tygodnie, potrząsając codziennie, aż cukier rozpuści się i powstanie syrop.",
+    "Połącz nalew z syropem, przefiltruj przez gazę lub bibułę i rozlej do butelek.",
+    "Leżakuj minimum 4–6 miesięcy w ciemnym, chłodnym miejscu — najlepszy smak osiąga po pół roku."
+  ],
+  "sourceUrls": [
+    "https://bimberek.pl/nalewka-z-czeresni-czeresniowka-przepis-wlasciwosci-przechowywanie/",
+    "https://smaker.pl/przepisy-napoje/przepis-nalewka-czeresniowa-nalewka-z-czeresni,120044,hajduczek-naturalnie.html",
+    "https://chinczykrembertow.pl/jak-zrobic-nalewke-z-czeresni/"
+  ]
+}
