@@ -97,7 +97,7 @@ export function MyBatches() {
         trailing={
           <Link
             to="/nastawy/nowy"
-            className="rounded-full bg-[var(--color-amber)] px-5 py-2.5 text-sm font-semibold text-[var(--color-bordo)] shadow transition hover:opacity-90"
+            className="rounded-full bg-[var(--color-amber)] px-5 py-2.5 text-center text-sm font-semibold text-[var(--color-bordo)] shadow transition hover:opacity-90"
           >
             + Załóż nowy
           </Link>
@@ -105,7 +105,7 @@ export function MyBatches() {
       />
 
       <section className="bg-[var(--color-cream)] py-12 sm:py-16">
-        <div className="mx-auto max-w-5xl px-6">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
           {isLoading && (
             <p className="text-sm text-stone-500">Ładuję nastawy…</p>
           )}

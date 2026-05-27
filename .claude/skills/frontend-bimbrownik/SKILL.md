@@ -58,6 +58,6 @@ type Recipe = {
 ## Checklist przy nowym widoku
 
 1. Pobieranie przez TanStack Query (loading + error + empty state).
-2. Responsywność (telefon → desktop).
+2. Responsywność (telefon → desktop); przy problemach mobile wołaj agenta `mobile-frontend`.
 3. Dostępność (klawiatura, aria, kontrast).
 4. Brak hardkodowanych URL API — używaj `import.meta.env.VITE_API_URL`.

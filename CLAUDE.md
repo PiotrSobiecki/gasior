@@ -26,7 +26,7 @@ bimbrownik/          # nazwa folderu repo (historyczna)
 ├── frontend/        # React + Vite + Tailwind v4 (deploy: Cloudflare Pages)
 ├── backend/         # Hono na Cloudflare Workers + Neon (Postgres) przez Drizzle
 └── .claude/
-    ├── agents/      # subagenci: research i walidacja receptur
+    ├── agents/      # subagenci: research, walidacja, mobile UI
     └── skills/      # skille: frontend, backend
 ```
 
@@ -86,8 +86,11 @@ npm run db:curate         # CLI kuratora (add/update/delete) na DEV
 - **recipe-validator** — sprawdza poprawność receptury: proporcje cukru do wody,
   realność szacowanego ABV, dobór drożdży, harmonogram fermentacji, kroki
   sanitarne i ostrzeżenia bezpieczeństwa.
+- **mobile-frontend** — audyt i poprawki responsywności UI (NavBar, hero,
+  formularze, karty, widoki nastawów) na telefonie i tablecie.
 
-Wywołuj je przez `Task`/Agent, gdy dodajesz lub weryfikujesz receptury.
+Wywołuj je przez `Task`/Agent, gdy dodajesz lub weryfikujesz receptury albo
+naprawiasz layout mobile.
 
 ## Skille (`.claude/skills/`)
 

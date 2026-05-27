@@ -1,0 +1,24 @@
+{
+  "name": "Gąsior — receptury nastawów owocowych",
+  "short_name": "Gąsior",
+  "description": "Sprawdzone receptury nastawów, kalkulator proporcji i tracker fermentacji w domu.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#6b1f2a",
+  "lang": "pl",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

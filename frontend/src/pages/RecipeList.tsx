@@ -101,7 +101,7 @@ export function RecipeList() {
         trailing={
           <Link
             to="/receptury/nowa"
-            className="rounded-full bg-[var(--color-amber)] px-5 py-2.5 text-sm font-semibold text-[var(--color-bordo)] shadow transition hover:opacity-90"
+            className="rounded-full bg-[var(--color-amber)] px-5 py-2.5 text-center text-sm font-semibold text-[var(--color-bordo)] shadow transition hover:opacity-90"
           >
             + Dodaj recepturę
           </Link>
@@ -109,7 +109,7 @@ export function RecipeList() {
       />
 
       <section className="bg-[var(--color-cream)] py-16">
-        <div className="mx-auto max-w-5xl px-6">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <FilterBar
             query={query}
             onCategoryChange={setCategory}

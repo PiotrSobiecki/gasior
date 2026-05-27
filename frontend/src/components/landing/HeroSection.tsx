@@ -28,7 +28,7 @@ export function HeroSection({ onStart }: { onStart: () => void }) {
         aria-hidden
         className="pointer-events-none absolute -right-24 -top-24 z-0 h-96 w-96 rounded-full bg-[var(--color-amber)]/15 blur-3xl"
       />
-      <div className="relative z-10 mx-auto max-w-5xl px-6 py-14 sm:py-16">
+      <div className="relative z-10 mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

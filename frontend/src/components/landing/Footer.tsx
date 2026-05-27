@@ -6,7 +6,7 @@ export function Footer() {
 
   return (
     <footer className="bg-[var(--color-bordo)] text-[var(--color-cream)]">
-      <div className="mx-auto flex max-w-5xl flex-col items-start gap-3 px-6 py-8 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mx-auto flex max-w-5xl flex-col items-start gap-3 px-4 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-6">
         <div className="flex items-center gap-3">
           <span className="font-[var(--font-display)] text-lg font-bold">
             <span className="inline-flex items-center gap-2">
