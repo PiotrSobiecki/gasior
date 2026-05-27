@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import type { ReactNode } from "react";
+import { useMemo, type ReactNode } from "react";
+import { pickRandomGasiorVideo } from "../lib/batchStageAssets";
 
 type Props = {
   badge?: string;
@@ -9,16 +10,50 @@ type Props = {
   trailing?: ReactNode;
   // Slot pod podtytułem (np. linki, CTA).
   children?: ReactNode;
+  // Opcjonalne tło MP4 (bez zmiany wysokości sekcji hero).
+  withVideoBackground?: boolean;
 };
 
-export function PageHero({ badge, title, subtitle, trailing, children }: Props) {
+export function PageHero({
+  badge,
+  title,
+  subtitle,
+  trailing,
+  children,
+  withVideoBackground = false,
+}: Props) {
+  const heroVideoSrc = useMemo(
+    () => (withVideoBackground ? pickRandomGasiorVideo() : null),
+    [withVideoBackground],
+  );
+
   return (
     <section className="relative overflow-hidden bg-[var(--color-bordo)] text-[var(--color-cream)]">
+      {heroVideoSrc && (
+        <>
+          <video
+            key={heroVideoSrc}
+            src={heroVideoSrc}
+            className="pointer-events-none absolute inset-0 h-full w-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+            disablePictureInPicture
+            preload="auto"
+            aria-hidden
+          />
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-0 bg-[var(--color-bordo)]/65"
+          />
+        </>
+      )}
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-[var(--color-amber)]/20 blur-3xl"
+        className="pointer-events-none absolute -right-24 -top-24 z-0 h-96 w-96 rounded-full bg-[var(--color-amber)]/20 blur-3xl"
       />
-      <div className="relative mx-auto max-w-5xl px-6 py-16 sm:py-20">
+      <div className="relative z-10 mx-auto max-w-5xl px-6 py-16 sm:py-20">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}

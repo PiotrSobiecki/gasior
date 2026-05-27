@@ -93,6 +93,7 @@ export function MyBatches() {
         badge="🍷 Twoje gąsiory"
         title={greeting}
         subtitle="Wszystkie nastawy w jednym miejscu. Wybierz, by zaglądnąć w pomiary, dziennik i kolejne kroki."
+        withVideoBackground
         trailing={
           <Link
             to="/nastawy/nowy"

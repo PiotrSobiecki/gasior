@@ -97,6 +97,7 @@ export function RecipeList() {
         badge="🏺 Biblioteka"
         title="Sprawdzone receptury nastawów"
         subtitle="Proporcje, kroki i źródła w jednym miejscu — wina owocowe, nalewki, cydry i miody pitne."
+        withVideoBackground
         trailing={
           <Link
             to="/receptury/nowa"

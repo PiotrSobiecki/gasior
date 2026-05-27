@@ -9,6 +9,16 @@ export const GASIOR_STAGE_IMAGES: Record<BatchStage, string> = {
   butelkowanie: "/gasior/butelkowanie.mp4",
 };
 
+/** Wszystkie MP4 z `public/gasior/` — tło hero na stronie głównej. */
+export const GASIOR_HERO_VIDEOS: readonly string[] = Object.values(
+  GASIOR_STAGE_IMAGES,
+);
+
+export function pickRandomGasiorVideo(): string {
+  const i = Math.floor(Math.random() * GASIOR_HERO_VIDEOS.length);
+  return GASIOR_HERO_VIDEOS[i]!;
+}
+
 export function gasiorImageForStage(stage: BatchStage): string {
   return GASIOR_STAGE_IMAGES[stage];
 }
