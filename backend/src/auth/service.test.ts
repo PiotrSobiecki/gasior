@@ -48,18 +48,25 @@ describe("AuthService", () => {
       expect(mail.sent[0].text).toContain(`${FRONTEND_ORIGIN}/aktywacja?token=`);
     });
 
-    it("does not reveal whether email already exists (idempotent response)", async () => {
-      // Pierwsze użycie OK.
+    it("ponowna rejestracja pending wysyła nowy link aktywacyjny", async () => {
       await svc.register({ email: "dup@example.com", displayName: null });
       mail.reset();
 
-      // Drugie użycie tym samym mailem: serwis MUSI zwrócić ok=true, ale
-      // NIE może utworzyć drugiego rekordu ani wyciec informacji "user exists".
-      // (Zapobiega enumeration; ewentualnie wysyłamy "ktoś próbował zarejestrować
-      //  twój adres — zaloguj się" — opcjonalne, na razie po prostu cisza.)
       const res = await svc.register({ email: "DUP@example.com", displayName: null });
       expect(res.ok).toBe(true);
-      // Brak nowego maila aktywacyjnego — istniejący user nie dostaje powtórki.
+      expect(mail.sent).toHaveLength(1);
+      expect(mail.sent[0].to).toBe("dup@example.com");
+      expect(mail.sent[0].text).toContain(`${FRONTEND_ORIGIN}/aktywacja?token=`);
+    });
+
+    it("ponowna rejestracja aktywnego konta nie wysyła maila (anti-enumeration)", async () => {
+      await svc.register({ email: "active@example.com", displayName: null });
+      const token = extractTokenFromLink(mail.sent[0].text);
+      await svc.activate({ token, password: "long-enough-pass" });
+      mail.reset();
+
+      const res = await svc.register({ email: "active@example.com", displayName: null });
+      expect(res.ok).toBe(true);
       expect(mail.sent).toHaveLength(0);
     });
   });

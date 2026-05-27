@@ -191,9 +191,17 @@ export function createAuthService(deps: AuthServiceDeps): AuthService {
       const email = input.email.trim().toLowerCase();
       const existing = await deps.repo.getUserByEmail(email);
       if (existing) {
-        // Świadomie zwracamy ok=true bez tworzenia nowego konta ani wysłania
-        // maila — to chroni przed user enumeration (atakujący nie odróżni
-        // "istnieje" od "nie istnieje" po response time / treści).
+        // Konto aktywne — cisza (anti-enumeration). Pending — ponowny link
+        // aktywacyjny (np. mail w Spamie albo wygasły token).
+        if (existing.status === "pending") {
+          const rawToken = await issueToken({
+            userId: existing.id,
+            kind: "activation",
+            ttlMs: activationTtlMs,
+          });
+          const link = `${deps.frontendOrigin}/aktywacja?token=${encodeURIComponent(rawToken)}`;
+          await deps.mail.send(buildActivationEmail(existing.email, link));
+        }
         return { ok: true };
       }
       const user = await deps.repo.createUser({
