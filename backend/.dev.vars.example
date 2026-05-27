@@ -19,3 +19,7 @@ FRONTEND_ORIGIN="http://localhost:5173"
 # w .prod.vars ustaw SESSION_COOKIE_SECURE="true".
 SESSION_COOKIE_SECURE="false"
 SESSION_TTL_DAYS="30"
+
+# URL do wyświetlania zdjęć z dziennika (GET /api/photos/...).
+# Prod: https://gasior.online/api/photos (przez proxy Pages → Worker → R2).
+# PHOTO_BASE_URL="http://localhost:8787/api/photos"

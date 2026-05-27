@@ -21,6 +21,9 @@
       "preview_bucket_name": "gasior-photos-dev"
     }
   ],
+  "vars": {
+    "PHOTO_BASE_URL": "https://gasior.online/api/photos"
+  },
   "routes": [
     {
       "pattern": "api.gasior.online",

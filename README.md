@@ -48,3 +48,6 @@ Definicje: `.claude/agents/`. Skille pomocnicze: `.claude/skills/`.
   → `wrangler pages deploy dist --project-name gasior`. API idzie przez ten sam
   origin (`functions/api/[[path]].ts` proxy → Worker), żeby uniknąć CORS.
 - DNS `www`: CNAME na `gasior.pages.dev` (nie na `gasior.online` — inaczej 522).
+- Zdjęcia dziennika: R2 bucket `gasior-photos` (binding `BUCKET_PHOTOS` w
+  `wrangler.jsonc`). Upload idzie przez `POST …/journal` z polem `photo` w
+  multipart; serwowanie pod `/api/photos/…` (na prod przez proxy Pages).

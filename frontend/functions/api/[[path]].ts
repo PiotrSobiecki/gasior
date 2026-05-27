@@ -22,14 +22,17 @@ export const onRequest: PagesFunction = async (context) => {
   const headers = new Headers(request.headers);
   headers.delete("host");
 
+  // duplex: "half" — wymagane przy przekazywaniu body (multipart ze zdjęciem).
+  const hasBody =
+    request.method !== "GET" &&
+    request.method !== "HEAD" &&
+    request.body !== null;
   const proxyRequest = new Request(target.toString(), {
     method: request.method,
     headers,
-    body:
-      request.method === "GET" || request.method === "HEAD"
-        ? undefined
-        : request.body,
+    body: hasBody ? request.body : undefined,
     redirect: "manual",
+    ...(hasBody ? { duplex: "half" as const } : {}),
   });
 
   const response = await fetch(proxyRequest);
