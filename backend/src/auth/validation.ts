@@ -5,6 +5,9 @@ import { z } from "zod";
 // stringi). Brak wymogów co do "klas znaków" — to udowodniony anti-pattern
 // (NIST 800-63B, 2017).
 export const PASSWORD_MIN_LENGTH = 10;
+// Górny limit chroni PBKDF2 przed bardzo długim wejściem (koszt rośnie
+// liniowo z długością); 200 znaków wystarcza każdemu menedżerowi haseł.
+export const PASSWORD_MAX_LENGTH = 200;
 
 // E-mail: zod ma własny z.string().email() — wystarczy, plus lowercase().
 export const emailSchema = z
@@ -15,7 +18,8 @@ export const emailSchema = z
 
 export const passwordSchema = z
   .string()
-  .min(PASSWORD_MIN_LENGTH, `Hasło musi mieć co najmniej ${PASSWORD_MIN_LENGTH} znaków`);
+  .min(PASSWORD_MIN_LENGTH, `Hasło musi mieć co najmniej ${PASSWORD_MIN_LENGTH} znaków`)
+  .max(PASSWORD_MAX_LENGTH, `Hasło może mieć maks. ${PASSWORD_MAX_LENGTH} znaków`);
 
 export const displayNameSchema = z
   .string()
@@ -36,7 +40,8 @@ export const activateInputSchema = z.object({
 
 export const loginInputSchema = z.object({
   email: emailSchema,
-  password: z.string().min(1), // przy logowaniu nie chcemy gadać o długości
+  // Przy logowaniu nie chcemy gadać o długości — tylko górny limit.
+  password: z.string().min(1).max(PASSWORD_MAX_LENGTH),
 });
 
 export const passwordResetRequestSchema = z.object({

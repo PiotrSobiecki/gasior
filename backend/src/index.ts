@@ -48,6 +48,13 @@ type Bindings = {
   // Trzymamy w Bindings, żeby pełna konfiguracja siedziała w wrangler.jsonc.
   SESSION_COOKIE_SECURE?: string; // "true" / "false"
   SESSION_TTL_DAYS?: string;       // np. "30"
+  // Opcjonalny Cloudflare Rate Limiting binding (wrangler.jsonc → ratelimits).
+  // Bez niego endpointy auth nie są limitowane (dev / testy).
+  AUTH_RATE_LIMITER?: RateLimiterLike;
+};
+
+type RateLimiterLike = {
+  limit(opts: { key: string }): Promise<{ success: boolean }>;
 };
 
 // Lokalny singleton in-memory storage — używany tylko gdy brak R2 binding.
@@ -143,6 +150,29 @@ app.use("/api/*", (c, next) => {
 });
 
 app.get("/", (c) => c.json({ name: "gasior-api", status: "ok" }));
+
+// Limit prób na endpointach auth: brute-force hasła i bombardowanie mailami
+// (rejestracja / reset wysyłają wiadomość przez Resend). Klucz = adres
+// e-mail z body (gdy jest), inaczej IP klienta. Hono cache'uje sparsowane
+// body, więc zValidator w route'cie dostanie je ponownie.
+app.post("/api/auth/*", async (c, next) => {
+  const limiter = c.env.AUTH_RATE_LIMITER;
+  if (!limiter) return next();
+  let email = "";
+  try {
+    const body = (await c.req.json()) as { email?: unknown };
+    if (typeof body.email === "string") email = body.email.trim().toLowerCase();
+  } catch {
+    // Brak JSON (np. logout) — limitujemy po IP.
+  }
+  const ip = c.req.header("cf-connecting-ip") ?? "unknown";
+  const key = `${c.req.path}:${email || ip}`;
+  const { success } = await limiter.limit({ key });
+  if (!success) {
+    return c.json({ error: "Za dużo prób — spróbuj ponownie za chwilę" }, 429);
+  }
+  return next();
+});
 
 // Konta — rejestracja / aktywacja / login / logout / reset hasła / /me.
 app.route(

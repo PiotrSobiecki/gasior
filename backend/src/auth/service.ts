@@ -290,6 +290,9 @@ export function createAuthService(deps: AuthServiceDeps): AuthService {
 
       const passwordHash = await hashPassword(input.password, hashOpts);
       await deps.repo.setUserPassword(consumed.userId, passwordHash);
+      // Zmiana hasła unieważnia wszystkie dotychczasowe sesje — jeśli ktoś
+      // przejął sesję, reset hasła ma go wylogować.
+      await deps.repo.deleteSessionsByUserId(consumed.userId);
       return { ok: true };
     },
 

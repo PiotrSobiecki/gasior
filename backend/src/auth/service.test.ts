@@ -210,6 +210,22 @@ describe("AuthService", () => {
       expect(withNew.ok).toBe(true);
     });
 
+    it("reset hasła unieważnia dotychczasowe sesje użytkownika", async () => {
+      await registerAndActivate("ada@example.com", "haslo-stare-123");
+      const login = await svc.login({ email: "ada@example.com", password: "haslo-stare-123" });
+      if (!login.ok) throw new Error("login failed");
+      expect(await svc.currentUserBySessionToken(login.sessionToken)).not.toBeNull();
+
+      await svc.requestPasswordReset({ email: "ada@example.com" });
+      const token = extractTokenFromLink(mail.sent[mail.sent.length - 1].text);
+      const confirm = await svc.resetPassword({ token, password: "haslo-nowe-12345" });
+      expect(confirm.ok).toBe(true);
+
+      expect(await svc.currentUserBySessionToken(login.sessionToken)).toBeNull();
+      const relogin = await svc.login({ email: "ada@example.com", password: "haslo-nowe-12345" });
+      expect(relogin.ok).toBe(true);
+    });
+
     it("rejects a reset token that was used for activation (kind mismatch)", async () => {
       await svc.register({ email: "a@b.com", displayName: null });
       const activationToken = extractTokenFromLink(mail.sent[0].text);

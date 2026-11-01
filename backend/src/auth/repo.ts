@@ -87,4 +87,6 @@ export interface AuthRepo {
   createSession(input: SessionCreateInput): Promise<Session>;
   getSessionByTokenHash(tokenHash: string): Promise<Session | null>;
   deleteSessionByTokenHash(tokenHash: string): Promise<void>;
+  // Unieważnia wszystkie sesje użytkownika (np. po zmianie hasła).
+  deleteSessionsByUserId(userId: string): Promise<void>;
 }
