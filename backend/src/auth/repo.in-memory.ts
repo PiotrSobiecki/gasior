@@ -109,5 +109,11 @@ export function createInMemoryAuthRepo(): AuthRepo {
     async deleteSessionByTokenHash(tokenHash: string) {
       sessions.delete(tokenHash);
     },
+
+    async deleteSessionsByUserId(userId: string) {
+      for (const [hash, s] of sessions) {
+        if (s.userId === userId) sessions.delete(hash);
+      }
+    },
   };
 }

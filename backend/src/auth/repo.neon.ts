@@ -139,6 +139,10 @@ export function createNeonAuthRepo(databaseUrl: string): AuthRepo {
     async deleteSessionByTokenHash(tokenHash: string) {
       await db.delete(sessions).where(eq(sessions.tokenHash, tokenHash));
     },
+
+    async deleteSessionsByUserId(userId: string) {
+      await db.delete(sessions).where(eq(sessions.userId, userId));
+    },
   };
 }
 

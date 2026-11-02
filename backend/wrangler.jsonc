@@ -24,6 +24,15 @@
   "vars": {
     "PHOTO_BASE_URL": "https://gasior.online/api/photos"
   },
+  // Limit prób na /api/auth/* (brute-force, bombardowanie mailami):
+  // 10 żądań na 60 s na adres e-mail (lub IP). Darmowy w planie Workers.
+  "ratelimits": [
+    {
+      "name": "AUTH_RATE_LIMITER",
+      "namespace_id": "1001",
+      "simple": { "limit": 10, "period": 60 }
+    }
+  ],
   "routes": [
     {
       "pattern": "api.gasior.online",
